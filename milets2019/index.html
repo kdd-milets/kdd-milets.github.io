@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="MiLeTs 2019, 5th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS), co-located with KDD 2019, Alaska, United States">
+
+
+    <title>The 5th Mining and Learning from Time Series Workshop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114495477-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#introduction">Intro</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#program">Schedule</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#keynote">Keynotes</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#papers">Accepted Papers & Posters</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#call">CFP</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#dates">Dates</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#organization">Organizers</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#program_committee">PC</a>
+                </li>
+                <li>
+                    <a href="https://milets18.github.io" target="_blank">MiLeTS '18</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Held in conjunction with <a href="http://www.kdd.org/kdd2019/" target=_blank>KDD'19</a><br/>
+                Aug 5, 2019 - Anchorage, Alaska, USA
+            </div>
+            <div class="intro-heading">5th Workshop on <br/>Mining and Learning from Time Series</div>
+        </div>
+    </div>
+</header>
+
+<!-- Introduction Section -->
+<section id="introduction">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Introduction</h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <p class="large text-muted">
+
+                    Time series data are ubiquitous. In domains as diverse as finance, entertainment, transportation and
+                    health care, we observe a fundamental shift away from parsimonious, infrequent measurement to nearly
+                    continuous monitoring and recording. Rapid advances in diverse sensing technologies, ranging from
+                    remote sensors to wearables and social sensing, are generating a rapid growth in the size and
+                    complexity of time series archives. Thus, although time series analysis has been studied
+                    extensively, its importance only continues to grow. What is more, modern time series data pose
+                    significant challenges to existing techniques (e.g., irregular sampling in hospital records and
+                    spatiotemporal structure in climate data). Finally, time series mining research is challenging and
+                    rewarding because it bridges a variety of disciplines and demands interdisciplinary solutions. Now
+                    is the time to discuss the next generation of temporal mining algorithms.
+                    The focus of MiLeTS workshop is to synergize the research in this area and discuss both new and open
+                    problems in time series analysis and mining. The solutions to these problems may be algorithmic,
+                    theoretical, statistical, or systems-based in nature. Further, MiLeTS emphasizes applications to
+                    high impact or relatively new domains, including but not limited to biology, health and medicine,
+                    climate and weather, road traffic, astronomy, and energy.
+                    <br/>
+                    The MiLeTS workshop will discuss a broad variety of topics related to time series, including:
+                </p>
+
+                <ul class="large text-muted">
+                    <li>Time series pattern mining and detection, representation, searching and indexing,
+                        classification, clustering, prediction, forecasting, and rule mining.
+                    </li>
+                    <li>BIG time series data.</li>
+                    <li>Hardware acceleration techniques using GPUs, FPGAs and special processors.</li>
+                    <li>Online, high-speed learning and mining from streaming time series.</li>
+                    <li>Uncertain time series mining.</li>
+                    <li>Privacy preserving time series mining and learning.</li>
+                    <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other
+                        atypical properties.
+                    </li>
+                    <li>Time series with special structure: spatiotemporal (e.g., wind patterns at different locations),
+                        relational (e.g., patients with similar diseases), hierarchical, etc.
+                    </li>
+                    <li>Time series with sparse or irregular sampling, non-random missing values, and special types of
+                        measurement noise or bias.
+                    </li>
+                    <li>Time series analysis using less traditional approaches, such as deep learning and subspace
+                        clustering.
+                    </li>
+                    <li>Applications to high impact or relatively new time series domains, such as health and medicine,
+                        road traffic, and air quality.
+                    </li>
+                    <li>New, open, or unsolved problems in time series analysis and mining.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Program Section -->
+<section id="program" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Schedule</h2>
+                <h3 class="section-subheading text-muted">
+                    Tubughnenq 3- Level 2, Dena'ina <br>
+                    8:00 AM - 5:00 PM <br>
+                    August 5th, 2019<br>
+                </h3>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-1 text-left">
+                &nbsp;
+            </div>
+            <div class="col-lg-10 text-left ">
+                <h3>MORNING SESSION</h3>
+                <p>08:00-08:10 Opening remarks</p>
+                <p>08:10-09:30 Contributed Talk</p>
+                <ul>
+                    <li><strong>MASA: Motif-Aware State Assignment in Noisy Time Series Data </strong>, <em>Saachi Jain, David Hallac, Rok Sosic and Jure Leskovec</em>
+                    </li>
+                </ul>
+                <ul>
+                    <li><strong>Classifying humans using Deep time-series transfer learning : accelerometric gait-cycles to gyroscopic squats </strong>, <em>Vinay Prabhu, Stephanie Tietz and Anh Ta</em>
+                    </li>
+                </ul>
+                <ul>
+                    <li><strong>Metadata-Augmented Neural Networks for Cross-Location Solar Irradiation Prediction from Satellite Images </strong>, <em>Kuan-Ying Lee, Hsin-Fu Huang, Hung-Yueh Chiang, Hu-Cheng Lee, Winston Hsu and Wen-Chin Chen</em>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li><strong>A Formally Robust Time Series Distance Metric </strong>, <em>Maximilian Toller, Bernhard Geiger and Roman Kern</em>
+                    </li>
+                </ul>
+                <ul>
+                    <li><strong>Enumerating Hub Motifs in Time Series Based on the Matrix Profile </strong>, <em>Genta Yoshimura, Atsunori Kanemura and Hideki Asoh</em>
+                    </li>
+                </ul>
+                <p>09:30-10:00 Coffee Break</p>
+                <p>10:00-11:00 Keynote Talk</p>
+                <ul>
+                    <li><strong>Flexibility, Interpretability, and Scalability in Time Series Modeling </strong>, <em>Emily Fox</em></li>
+                </ul>
+                <p>11:00-12:00 Keynote Talk</p>
+                <ul>
+                    <li><strong>AI for Transportation </strong>, <em>Jieping Ye</em></li>
+                </ul>
+                <p>12:00-13:00 Lunch Break</p>
+                <h3>AFTERNOON SESSION</h3>
+                <p>13:00-14:00 Keynote Talk</p>
+                <ul>
+                    <li><strong>Time Series Analysis for Massive Sensor Network Data from cars, airplanes and smart buildings </strong>, <em>Jure Leskovec</em></li>
+                </ul>
+                <p>14:00-14:30 Poster Highlights</p>
+                <p>14:30-16:00 Poster Session &amp; Coffee Break</p>
+                <p>16:00-16:45 Contributed Talks</p>
+                <ul>
+                    <li><strong>Online FDR Controlled Anomaly Detection for Streaming Time Series</strong>, <em>Weinan Wang, Zhengyi Liu, Lucas Pierce and Xiaolin Shi</em></li>
+                </ul>
+                <ul>
+                    <li><strong>Graph Attention Recurrent Neural Networks for Correlated Time Series Forecasting</strong>, <em>Razvan-Gabriel Cirstea, Chenjuan Guo and Bin Yang</em></li>
+                </ul>
+                <ul>
+                    <li><strong>Probabilistic Forecasting with Temporal Convolutional Neural Network</strong>, <em>Yitian Chen, Yanfei Kang, Yixiong Chen and Zizhuo Wang</em></li>
+                </ul>
+                <p>16:45-17:00 Concluding Remarks</p>
+            </div>
+
+            <div class="col-lg-1 text-left">
+                &nbsp;
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Keynote Section -->
+
+<section id="keynote">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Speakers</h2>
+
+            </div>
+            
+        </div>
+
+        <!-- Emily Fox -->
+        <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://homes.cs.washington.edu/~ebfox/" target="_blank">
+                            <img src="img/emily_fox.jpg" style="height: 240px; width:240px;"
+                                 class="img-responsive img-circle"
+                                 alt="Emily Fox">
+                        </a>
+                        <h4><a href="https://homes.cs.washington.edu/~ebfox/" target="_blank">Emily Fox</a></h4>
+                        <p class="text-muted">Associate Professor<br/>University of Washington</p>
+    
+                    </div>
+                </div>
+    
+                <div class="col-sm-8 text-justify">
+                    <h3>Flexibility, Interpretability, and Scalability in Time Series Modeling  <a href="slides/kdd-milets19-emily.pdf" target="_blank">[Slides]</a> </h3>
+                    <p>We are increasingly faced with the need to analyze complex data streams; for example, sensor measurements from wearable devices.  Machine learning—and moreover deep learning—has brought many recent success stories to the analysis of complex sequential data sources, including speech, text, and video.  However, these success stories involve a clear prediction goal combined with a massive (benchmark) training dataset.  Unfortunately, many real-world tasks go beyond simple predictions, especially in cases where models are being used as part of a human decision-making process.  For example, imagine the challenge of forecasting metro-level homeless populations based on historical annual single-night counts, or inferring the structure of gene regulatory networks from limited observations of their complex non-linear dynamics.  Such complex scenarios necessitate notions of interpretability and measures of uncertainty.  Furthermore, in aggregate the datasets might be large, but we might have limited data for an individual stream, requiring parsimonious modeling approaches.
+                    </p>
+                    <p>
+    
+                        In this talk, we first discuss how sparsity-inducing penalties can be deployed on the weights of deep neural networks to enable interpretable structure learning, in addition to yielding more parsimonious models that better handle limited data scenarios.  We then turn to Bayesian dynamical modeling of individually sparse data streams, flexibly sharing information, accounting for uncertainty, and handling non-stationarities.  Finally, we discuss our recent body of work on scaling learning in sequential data scenarios by considering stochastic gradient based approaches and mitigating the bias introduced in subsampling dependent data.  We explore these ideas within the context of Markov chain Monte Carlo methods and training recurrent neural networks (RNNs).  Throughout the talk, we provide analyses of neuroimaging, genomic, housing and homelessness data sources, and a language modeling task.
+                    </p>
+                        <br>
+                        <b>Bio</b><br>
+                        Dr. Emily Fox is a Principal Research Scientist at Apple and an Associate Professor in the Paul G. Allen School of Computer Science & Engineering and Department of Statistics at the University of Washington, where she holds the Amazon Professorship of Machine Learning.  She received her Ph.D. in EECS from MIT, with her dissertation being awarded the Leonard J. Savage Thesis Award in Applied Methodology and MIT EECS Jin-Au Kong Outstanding Doctoral Thesis Prize. She has also been awarded a Presidential Early Career Award for Scientists and Engineers (2017), Sloan Research Fellowship (2015), ONR Young Investigator award (2015), NSF CAREER award (2014),  Her research interests are in large-scale dynamic modeling and computations, with a focus on Bayesian methods.
+                    </p>
+                </div>
+            </div>
+
+        
+
+        <br/>
+        <!-- Jieping Ye -->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/jieping/" target="_blank">
+                        <img src="img/jieping_ye.jpg" style="height: 240px; width:240px;"
+                             class="img-responsive img-circle"
+                             alt="Jieping Ye">
+                    </a>
+                    <h4><a href="https://www.linkedin.com/in/jieping/" target="_blank">Jieping Ye</a></h4>
+                    <p class="text-muted">Vice President<br/>Didi Chuxing</p>
+
+                </div>
+            </div>
+
+            <div class="col-sm-8 text-justify">
+                               <h3>AI for Transportation </h3>
+                               Didi Chuxing is the world’s leading mobile transportation platform that offers a full range of app-based transportation options for 550 million users. Every day, DiDi's platform receives over 100TB new data, processes more than 40 billion routing requests, and acquires over 15 billion location points. In this talk, I will show how AI technologies have been applied to analyze such big transportation data to improve the travel experience for millions of users.
+                <p>
+
+                    <br>
+                    <b>Bio</b><br>
+                    Dr. Jieping Ye is head of Didi AI Labs and a VP of Didi Chuxing. He is also a professor of University of Michigan, Ann Arbor. His research interests include big data, machine learning, and data mining with applications in transportation and biomedicine. He has served as a Senior Program Committee/Area Chair/Program Committee Vice Chair of many conferences including NIPS, ICML, KDD, IJCAI, ICDM, and SDM. He has served as an Associate Editor of Data Mining and Knowledge Discovery, IEEE Transactions on Knowledge and Data Engineering, and IEEE Transactions on Pattern Analysis and Machine Intelligence. He won the NSF CAREER Award in 2010. His papers have been selected for the outstanding student paper at ICML in 2004, the KDD best research paper runner up in 2013, and the KDD best student paper award in 2014.
+                </p>
+            </div>
+        </div>
+        
+        <br/>
+        <!-- Jure Leskovec -->
+        <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://cs.stanford.edu/~jure/" target="_blank">
+                            <img src="img/jure_leskovec2.jpg" style="height: 240px; width:240px;"
+                                 class="img-responsive img-circle"
+                                 alt="Jure Leskovec">
+                        </a>
+                        <h4><a href="https://cs.stanford.edu/~jure/" target="_blank">Jure Leskovec</a></h4>
+                        <p class="text-muted">Associate Professor<br/>Stanford University</p>
+    
+                    </div>
+                </div>
+    
+                <div class="col-sm-8 text-justify">
+                    <h3>Time Series Analysis for Massive Sensor Network Data from cars, airplanes and smart buildings <a href="slides/kdd-milets19-jure-ticc_drive2vec.pdf" target="_blank">[Slides]</a> </h3>
+                    <p>
+                        
+    
+                        <br>
+                        <b>Bio</b><br>
+                        Dr. Jure Leskovec is Associate Professor of Computer Science at Stanford University, Chief Scientist at
+                        Pinterest, and investigator at Chan Zuckerberg Biohub. His research focuses on machine learning and
+                        data mining applied to social, information and biological networks, their evolution, and the
+                        diffusion of information and influence over them. Computation over massive data is at the heart of
+                        his research and has applications in computer science, social sciences, economics, marketing, and
+                        healthcare. This research has won several awards including a Lagrange Prize, Microsoft Research
+                        Faculty Fellowship, the Alfred P. Sloan Fellowship, and numerous best paper awards. Leskovec
+                        received his bachelor's degree in computer science from University of Ljubljana, Slovenia, and his
+                        PhD in in machine learning from the Carnegie Mellon University and postdoctoral training at Cornell
+                        University.
+                    </p>
+                </div>
+            </div>
+
+        
+
+        <!-- <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-subheading text-muted">More keynote speakers will be announced ...</h3>
+            </div>
+        </div> -->
+
+
+    </div>
+
+</section>
+
+
+<!-- Accepted Papers Section -->
+<section id="papers" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Accepted Papers</h2>
+                <!--h3 class="section-heading">TBA</h3> -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1 text-justify">
+                &nbsp;
+            </div>
+            <div class="col-lg-10 text-justify">
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_1.pdf" target="_blank">
+                        Metadata-Augmented Neural Networks for Cross-Location Solar Irradiation Prediction from Satellite Images
+                    </a>
+                    Kuan-Ying Lee, Hsin-Fu Huang, Hung-Yueh Chiang, Hu-Cheng Lee, Winston Hsu and Wen-Chin Chen
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_2.pdf" target="_blank">
+                        Probabilistic Forecasting with Temporal Convolutional Neural Network
+                    </a>
+                    Yitian Chen, Yanfei Kang, Yixiong Chen and Zizhuo Wang
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_3.pdf" target="_blank">
+                        MASA: Motif-Aware State Assignment in Noisy Time Series Data
+                    </a>
+                    Saachi Jain, David Hallac, Rok Sosic and Jure Leskovec
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_4.pdf" target="_blank">
+                        A Formally Robust Time Series Distance Metric
+                    </a>
+                    Maximilian Toller, Bernhard Geiger and Roman Kern
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_5.pdf" target="_blank">
+                        Enumerating Hub Motifs in Time Series Based on the Matrix Profile
+                    </a>
+                    Genta Yoshimura, Atsunori Kanemura and Hideki Asoh
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_6.pdf" target="_blank">
+                        Online FDR Controlled Anomaly Detection for Streaming Time Series
+                    </a>
+                    Weinan Wang, Zhengyi Liu, Lucas Pierce and Xiaolin Shi
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_7.pdf" target="_blank">
+                        Classifying humans using Deep time-series transfer learning : accelerometric gait-cycles to gyroscopic squats
+                    </a>
+                    Vinay Prabhu, Stephanie Tietz and Anh Ta
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_paper_8.pdf" target="_blank">
+                        Graph Attention Recurrent Neural Networks for Correlated Time Series Forecasting
+                    </a>
+                    Razvan-Gabriel Cirstea, Chenjuan Guo and Bin Yang
+                </p>
+
+
+                
+                <!-- End Paper List -->
+
+            </div>
+            <div class="col-lg-1 text-justify">
+                &nbsp;
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section id="posters" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Accepted Posters</h2>
+                <!-- <h3 class="section-heading">TBA</h3> -->
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1 text-justify">
+                &nbsp;
+            </div>
+            <div class="col-lg-10 text-justify">
+            
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_1.pdf" target="_blank">
+                        Heterogeneous Relational Kernel Learning
+                    </a>
+                    Andre Nguyen and Edward Raff
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_2.pdf" target="_blank">
+                        Deep Learning Models for Predicting CO2 Flux Employing Multivariate Time Series
+                    </a>
+                    Phuong Nguyen and Milton Halem
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_3.pdf" target="_blank">
+                        Bidirectional Imputation of Sensor-based Time Series Data
+                    </a>
+                    Yuhui Wang and Diane Cook
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_4.pdf" target="_blank">
+                        DenseNets for Time Series Classification: towards automation of time series pre-processing with CNNs
+                    </a>
+                    Guillaume Richard, Georges Hébrail, Mathilde Mougeot and Nicolas Vayatis
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_5.pdf" target="_blank">
+                        Event Characterization and Separation using Wavelet Signatures
+                    </a>
+                    Amrita Anam, Aryya Gangopadhyay and Nirmalya Roy
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_6.pdf" target="_blank">
+                        Contextual Anomaly Detection by Correlated Probability Distributions using Kullback-Leibler Divergence
+                    </a>
+                    Jinwoo Cho, Shahroz Tariq, Sangyup Lee, Young Geun Kim, Jeong-Han Yun, Jonguk Kim, Hyoung Chun Kim and Simon Woo
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_7.pdf" target="_blank">
+                        Increasing Lead Time and Granularity of Civil Unrest Prediction through Time Series Data
+                    </a>
+                    Lu Meng and Rohini Srihari
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_8.pdf" target="_blank">
+                        Multi-Domain Anomalous Temporal Association (Multi-DATA) -- Moving towards explainability from multiple notions
+                        of time
+                    </a>
+                    Vandana Janeja and Suraksha Shukla
+                </p>
+                
+                <p class="row  large text-muted">
+                    <a href="papers/milets19_poster_9.pdf" target="_blank">
+                        MLAT: Metric Learning for kNN in Streaming Time Series
+                    </a>
+                    Dongmin Park, Susik Yoon, Hwanjun Song and Jae-Gil Lee
+                </p>
+
+                ​
+
+                <!-- End Poster List -->
+
+            </div>
+            <div class="col-lg-1 text-justify">
+                &nbsp;
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Call for Papers Section -->
+<section id="call">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Call for Papers</h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+        <div class="row text-justify">
+            <div class="col-md-12">
+                <p class="large text-muted">
+                    Submissions should follow the <a
+                        href="https://www.kdd.org/kdd2019/Calls/view/kdd-2019-call-for-research-papers">SIGKDD
+                    formatting requirements</a> and will be evaluated using the <a
+                        href="https://www.kdd.org/kdd2019/Calls/view/kdd-2019-call-for-research-papers">SIGKDD
+                    Research Track evaluation criteria</a>.
+                    Preference will be given to papers that are reproducible,
+                    and authors are encouraged to share their data and code publicly whenever possible.
+                    Submissions are strongly recommended to be <b>no more than 4 pages</b>, excluding references or
+                    supplementary materials (all in a single pdf). The appropriateness of using additional pages over
+                    the recommended length will be judged by reviewers.
+                    All submissions must be in pdf format using the workshop template (
+                    <a href="template/sample-latex.zip" target="_blank">latex</a>,
+                    <a href="template/word-template.docx" target="_blank">word</a>).
+                    Submissions will be managed via the <a href="https://easychair.org/conferences/?conf=milets19">MiLeTS
+                    2019 EasyChair website</a>.
+                </p>
+
+                <p class="large text-muted">
+                    <b>Note on <i>open problem</i> submissions:</b> In order to promote new and innovative research on
+                    time series, we plan to accept a small number of high quality manuscripts describing <i>open
+                    problems</i> in time series analysis and mining. Such papers should provide a clear, detailed
+                    description and analysis of a new or open problem that poses a significant challenge to existing
+                    techniques, as well as a thorough empirical investigation demonstrating that current methods are
+                    insufficient.
+                </p>
+
+                <p class="large text-muted">
+                    The review process is single-round and double-blind (submission files have to be anonymized).
+                    Concurrent submissions to other journals and conferences are acceptable.
+                    Accepted papers will be presented as posters during the workshop and list on the website.
+                    Besides, a small number of accepted papers will be selected to be presented as contributed talks.
+                </p>
+
+                <p class="large text-muted">
+                    Any questions may be directed to the workshop e-mail address: <a
+                        href="mailto:kdd.milets@gmail.com">kdd.milets@gmail.com</a>.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Dates Section -->
+<section id="dates" class="bg-mid-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Key Dates</h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 text-left">
+                &nbsp;
+            </div>
+            <div class="col-lg-8 text-left">
+                <div class="col-md-12">
+                    <!--<p class="large text-muted">-->
+                    <!--<b>Paper Submission Deadline:</b> <strike class="text-muted">TBD</strike>-->
+                    <!--</p>-->
+                    <p class="large text-muted">
+                        <b>Paper Submission Deadline:</b> <span style="text-decoration: line-through;">May 5th, 2019</span> May 12th, 2019 11:59PM Alofi
+                        Time
+                    </p>
+                    <p class="large text-muted">
+                        <b>Author Notification:</b> <span style="text-decoration: line-through;">June 1st, 2019</span> June 8th, 2019
+                    </p>
+                    <p class="large text-muted">
+                        <b>Camera Ready Version:</b> June 22nd, 2019
+                    </p>
+                    <p class="large text-muted">
+                        <b>Workshop:</b> August 5th, 2019
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Organization Section -->
+<section id="organization">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Workshop Organizers</h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+
+        <div class="col-sm-1">
+            &nbsp;
+        </div>
+
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/zhengwang.jpg" class="img-responsive img-circle" alt="">
+                <h4><a href="https://sites.google.com/site/wangzheng04/">Zheng Wang</a></h4>
+                <p class="text-muted">DiDi Labs</p>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            &nbsp;
+        </div>
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/sanjay.png" class="img-responsive img-circle" alt="">
+                <h4><a href="http://www-scf.usc.edu/~spurusho/">Sanjay Purushotham</a></h4>
+                <p class="text-muted">University of Maryland, Baltimore County</p>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            &nbsp;
+        </div>
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/yaguang.jpg" class="img-responsive img-circle" alt="">
+                <h4><a href="http://www-scf.usc.edu/~yaguang/">Yaguang Li</a></h4>
+                <p class="text-muted">University of Southern California</p>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<section id="steering_committee">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Steering Committee</h2>
+                <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+            </div>
+        </div>
+
+        <div class="col-sm-1">
+            &nbsp;
+        </div>
+
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/eamonn.jpg" class="img-responsive img-circle" alt="">
+                <h4><a href="http://www.cs.ucr.edu/~eamonn/">Eamonn Keogh</a></h4>
+                <p class="text-muted">University of California Riverside</p>
+            </div>
+        </div>
+
+        <div class="col-sm-2">
+            &nbsp;
+        </div>
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/yanliu.jpg" class="img-responsive img-circle" alt="">
+                <h4><a href="http://www-bcf.usc.edu/~liu32/">Yan Liu</a></h4>
+                <p class="text-muted">University of Southern California</p>
+            </div>
+        </div>
+
+
+        <div class="col-sm-2">
+            &nbsp;
+        </div>
+
+        <div class="col-sm-2">
+            <div class="team-member">
+                <img src="img/mueen.jpg" class="img-responsive img-circle" alt="">
+                <h4><a href="http://www.cs.unm.edu/~mueen/">Abdullah Mueen </a></h4>
+                <p class="text-muted">University of New Mexico</p>
+            </div>
+        </div>
+
+        <div class="col-sm-1">
+            &nbsp;
+        </div>
+
+    </div>
+
+</section>
+
+<section id="program_committee">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Program Committee</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <ul class="large">
+                    <li>Mohammad Taha Bahadori, Amazon</li>
+                    <li>Gustavo Batista, UNSW, Sydney </li>
+                    <li>Nurjahan Begum, University of California, Riverside</li>
+                    <li>Zhengping Che, Didi Chuxing</li>
+                    <li>Dingxiong Deng, Facebook</li>
+                    <li>Xiang Li, Center for Clinical Data Science, Massachusetts General Hospital</li>
+                    <li>Spiros Papadimitriou, Rutgers University</li>
+                    <li>Francois Petitjean, Monash University</li>
+                    <li>Diego Silva, Universidade Federal de São Carlos</li>
+                    <li>Souhaib	Ben Taieb, University of Mons</li>
+                    <li>Rose Yu, Northeastern University</li>
+                    <li>Jiayu Zhou, Michigan State University</li>
+                </ul>
+            </div>
+            <div class="col"></div>
+        </div>
+        
+    </div>
+</section>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Contact Form JavaScript -->
+<script src="js/contact_me.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+
+</body>
+
+</html>
