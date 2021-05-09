@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.html">
+
+    <title>Mining and Learning from Time Series Workshop</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        p {
+            line-height: 1.25;
+            margin-bottom: 25px;
+        }
+        
+        td {
+            padding: 0 25px 0 0;
+        }
+    </style>
+</head>
+
+<body style="background-color:#ffffff; color:#000000">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="index-2.html">SIGKDD MiLeTS 2015</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#schedule">SCHEDULE</a></li>
+                    <li><a href="#keynotes">KEYNOTES</a></li>
+                    <li><a href="#accepted">ACCEPTED PAPERS</a></li>
+                    <li><a href="#org">ORGANIZATION</a></li>
+                    <li><a href="#cfp">CFP</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <div id="w" style="padding-bottom:10px; padding-top:35px">
+        <div class="container">
+            <h2>SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS)</h2>
+            <p>
+                Time series data are ubiquitous. The explosion of new sensing technologies (wearable sensors, satellites, mobile phones, etc.), combined with increasingly cheap and effective storage, is generating an unprecedented and growing amount of time series data
+                in a variety of domains. The volume and complexity of these data present new and significant challenges to existing and even state-of-the-art methods. The focus of MiLeTS workshop is to synergize the research in this area and discuss both
+                new and open problems in time series analysis and mining. The solutions to these problems may be algorithmic, theoretical, statistical, or systems-based in nature. Further, MiLeTS emphasizes applications to high impact or relatively new
+                domains, including but not limited to biology, health and medicine, climate and weather, road traffic, astronomy, and energy.
+            </p>
+        </div>
+
+        <!--SCHEDULE-->
+        <div class="container">
+            <a name="schedule"></a>
+            <h3>Schedule</h3>
+            <p>
+                <b>1st International Workshop on Mining and Learning from Time Series (MiLeTS)</b><br>
+                <a href="http://www.kdd.org/kdd2015/program.html">Level 4, Room 5</a><br> August 10, 2015<br> Sydney, Australia<br>
+                <!--<a href="https://easychair.org/conferences/?conf=milets2015">Paper submission website</a>-->
+
+                <table cellspacing="100">
+                    <!--<tr><td><b>Key Dates</b></td><td></td></tr>-->
+
+                    <!--KEYNOTE 1-->
+                    <tr>
+                        <td width="125">1:30-2:30 PM</td>
+                        <td><a href="#chid">KEYNOTE: <i>Leveraging Open Spatio-temporal Data for Business Analytics Solutions</i></a></td>
+                        <td><a href="#chid">Chid Apte, IBM Research</a></td>
+                    </tr>
+
+                    <!--SESSION 1-->
+                    <tr>
+                        <td>2:30-3:10 PM</td>
+                        <td><a href="#accepted">Technical Session 1: Time-evolving Networks and Graphs</a></td>
+                        <td></td>
+                    </tr>
+
+                    <!--COFFEE BREAK-->
+                    <tr>
+                        <td>3:10-3:40 PM</td>
+                        <td>Coffee Break</td>
+                        <td></td>
+                    </tr>
+
+                    <!--KEYNOTE 2-->
+                    <tr>
+                        <td>3:40-4:40 PM</td>
+                        <td><a href="#geoff">KEYNOTE: <i>Scaling Log-linear Analysis to Datasets with Thousands of Variables</i></a></td>
+                        <td><a href="#geoff">Geoff Webb, Monash University</a></td>
+                    </tr>
+                    <!--                    <tr><td>3:40-4:40 PM</td><td><a href="#geoff">KEYNOTE: <i>Deep Broad Learning: Big Models for Big Data</i></a></td><td><a href="#geoff">Geoff Webb, Monash University</a></td></tr>-->
+                    <!--SESSION 2-->
+                    <tr>
+                        <td>4:40-5:40 PM</td>
+                        <td><a href="#accepted">Technical Session 2: Uncertain and Intermittent Time Series</a></td>
+                        <td></td>
+                    </tr>
+
+                    <!--DISCUSSION-->
+                    <tr>
+                        <td>5:40-6:00 PM</td>
+                        <td>Roundtable Discussion on Future of Time Series Research</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </p>
+            <p>
+                The inaugural MiLeTS workshop will discuss a broad variety of topics related to time series, including:
+            </p>
+            <ul>
+                <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.</li>
+                <li>BIG time series data.</li>
+                <li>Hardware acceleration techniques using GPUs, FPGAs and special processors.</li>
+                <li>Online, high-speed learning and mining from streaming time series.</li>
+                <li>Uncertain time series mining.</li>
+                <li>Privacy preserving time series mining and learning.</li>
+                <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.</li>
+                <li>Time series with special structure: spatiotemporal (e.g., wind patterns at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.</li>
+                <li>Time series with sparse or irregular sampling, non-random missing values, and special types of measurement noise or bias.</li>
+                <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.</li>
+                <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.</li>
+                <li>New, open, or unsolved problems in time series analysis and mining (see note below).
+                </li>
+            </ul><br>
+        </div>
+
+        <a name="keynotes"></a>
+        <div class="container">
+            <h3>Keynote Speakers</h3>
+            <a name="chid"></a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        <h4>Chid Apte, Ph.D., Director Mathematical Sciences & Analytics</h4>
+                        IBM T.J. Watson Research Center<br> Yorktown Heights, NY, USA</p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img class="img-rounded" src="images/tricorder.jpg" width="400" alt=""> -->
+                </div>
+            </div>
+            <div class="row" style="padding-left:15px">
+                <p><b>Leveraging open spatio-temporal data for business analytics solutions</b><br> The confluence and availability of large-scale remotely-sensed and locally-instrumented spatio-temporal data will significantly enhance our ability to drive
+                    insights for business decision optimization. The technical challenges that need to be addressed for handling this class of data represents new opportunities for time-series mining and learning techniques. I will discuss these challenges,
+                    examples of industry applications that will benefit, and the role for underlying big data and high performance computing methods.</p>
+            </div>
+            <div class="row" style="padding-left:15px">
+                <p>Chid Apte is Director of Mathematical Sciences and Analytics in the IBM Research Division, at the Thomas J. Watson Research Center in Yorktown Heights, New York. Chid has over twenty five years of technical experience as a research scientist
+                    and leader in the data sciences area. He has worked on several projects in predictive analytics solutions for a wide cross-section of industries and led several projects to develop capabilities for IBM's Information & Analytics product
+                    portfolio and advanced analytics solutions for IBM's clients. He received his Ph.D. in Computer Science from Rutgers University, and B. Tech. in Electrical Engineering from the Indian Institute of Technology (Bombay).</p>
+            </div>
+
+            <a name="geoff"></a>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>
+                        <h4>Geoff Webb, Ph.D., Research Professor, Faculty of Information Technology</h4>
+                        Monash University<br> Victoria, Australia</p>
+                </div>
+                <div class="col-lg-6">
+                    <!-- <img class="img-rounded" src="images/tricorder.jpg" width="400" alt=""> -->
+                </div>
+            </div>
+            <div class="row" style="padding-left:15px">
+                <p><b>Scaling Log-linear Analysis to Datasets with Thousands of Variables</b><br> Association discovery is a fundamental data mining task. The primary statistical approach to association discovery between variables is log-linear analysis.
+                    Classical approaches to log-linear analysis do not scale beyond about ten variables. By melding the state-of-the-art in statistics, graphical modeling, and data mining research, we have developed efficient and effective algorithms
+                    for log-linear analysis, performing in seconds log-linear analysis of datasets with thousands of variables and providing a powerful statistically-sound method for creating compact models of complex high-dimensional multivariate distributions.</p>
+            </div>
+            <!--            <div class="row" style="padding-left:15px">
+                <p><b>Deep Broad Learning: Big Models for Big Data</b><br>
+                Deep learning has demonstrated the power of detailed modeling of complex high-order (multivariate) interactions in data. For some learning tasks there is value in learning models that are not only Deep but also Broad. By Broad, we mean models that incorporate evidence from large numbers of features. This is particularly valuable in applications where many different features and combinations of features all carry small amounts of information about the class. The most accurate models will integrate all that information. In this talk, we propose an algorithm for Deep Broad Learning (DBL). The proposed algorithm has only one tunable parameter n, that specifies the depth of the model. We demonstrate that DBL learns models on several big datasets that are highly competitive to those learned by state-of-the-art alternatives.</p>
+            </div>-->
+            <div class="row" style="padding-left:15px">
+                <p>Geoff Webb is a leading data scientist. He was editor in chief of the premier data mining journal, Data Mining and Knowledge Discovery from 2005 to 2014. He has been Program Committee Chair of the two top data mining conferences, ACM SIGKDD
+                    and IEEE ICDM, as well as General Chair of ICDM. He is the Director of the Monash University Center for Data Science. He is a Technical Advisor to BigML Inc, who are incorporating his best of class association discovery software, Magnum
+                    Opus, into their cloud based Machine Learning service. He developed many of the key mechanisms of support-confidence association discovery in the late 1980s. His OPUS search algorithm remains the state-of-the-art in rule search. He
+                    pioneered multiple research areas as diverse as black-box user modelling, interactive data analytics and statistically-sound pattern discovery. He has developed many useful machine learning algorithms that are widely deployed. He received
+                    the 2013 IEEE Outstanding Service Award, a 2014 Australian Research Council Discovery Outstanding Researcher Award and was elevated to IEEE Fellow earlier this year.</p>
+                <!--                <p>Geoff Webb is a Professor of Information Technology Research in the Faculty of Information Technology at Monash University, where he heads the Centre for Research in Intelligent Systems. His primary research areas are machine learning, data mining, user modelling and computational structural biology. He is known for his contribution to the debate about the application of Occam's razor in machine learning and for the development of numerous methods, algorithms and techniques for machine learning, data mining, user modeling and computational structural biology. His commercial data mining software, Magnum Opus, incorporates many techniques from his association discovery research. Many of his learning algorithms are included in the widely-used Weka machine learning workbench. He is editor-in-chief of Data Mining and Knowledge Discovery, co-editor of the Springer Encyclopedia of Machine Learning, a foundation member of the advisory board of Statistical Analysis and Data Mining, a member of the editorial board of Machine Learning, and was a foundation member of the editorial board of ACM Transactions on Knowledge Discovery from Data. He is PC Co-Chair of the 2015 ACM SIGKDD Conference on Knowledge Discovery and Data Mining was PC Co-Chair of the 2010 IEEE International Conference on Data Mining and co-General Chair of the 2012 IEEE International Conference on Data Mining. He has received the 2013 IEEE ICDM Service Award and a 2014 Australian Research Council Discovery Outstanding Researcher Award (one of only seven awarded across all research disciplines).</p>-->
+            </div>
+        </div>
+
+        <a name="accepted"></a>
+        <div class="container">
+            <h3>Accepted Papers</h3>
+
+            <h4>Technical Session 1: Time-evolving Networks and Graphs</h4>
+            <a name="session2"></a>
+            <div class="row" style="padding-bottom:5px">
+                <div class="col-lg-6">
+                    <a href="http://arxiv.org/abs/1508.00987">On the Shoulders of Giants: Incremental Influence Maximization in Evolving Social Networks</a>
+                </div>
+                <div class="col-lg-5">
+                    Xiaodong Liu, Xiangke Liao, Shanshan Li, Jingying Zhang, Lisong Shao, Chenlin Huang and Liquan Xiao
+                </div>
+            </div>
+            <!-- <div class="row">
+                Identifying the most influential individuals can provide invaluable help in developing and deploying effective viral marketing strategies. Previous studies mainly focus on designing efficient algorithms or heuristics to find top-K influential nodes on a given static social network. While, as a matter of fact, real-world social networks keep evolving over time and a recalculation upon the changed network inevitably leads to a long running time, significantly affecting the efficiency. In this paper, we observe from real-world traces that the evolution of social network follows the preferential attachment rule and the influential nodes are mainly selected from high-degree nodes. Such observations shed light on the design of IncInf, an incremental approach that can efficiently locate the top-K influential individuals in evolving social networks based on previous information instead of calculation from scratch. In particular, IncInf quantitatively analyzes the influence spread changes of nodes by localizing the impact of topology evolution to only local regions, and a pruning strategy is further proposed to effectively narrow the search space into nodes experiencing major increases or with high degrees. We carried out extensive experiments on real-world dynamic social networks including Facebook, NetHEPT, and Flickr. Experimental results demonstrate that, compared with the state-of-the-art static heuristic, IncInf achieves as much as 21X speedup in execution time while maintaining matching performance in terms of influence spread.
+            </div> -->
+
+            <div class="row" style="padding-bottom:5px">
+                <div class="col-lg-6">
+                    <a href="http://aacharya.github.io/pdfs/acsz15.pdf">Nonparametric Dynamic Network Modeling</a>
+                </div>
+                <div class="col-lg-6">
+                    Ayan Acharya, Avijit Saha, Mingyuan Zhou, Joydeep Ghosh and Dean Teffer
+                </div>
+            </div>
+            <!-- <div class="row">
+                Certain relational datasets such as those representing social net- works evolve over time, necessitating the development of time- series models where the characteristics of the underlying groups of entities can adapt with time. This paper proposes the Dynamic Gamma Process Poisson Factorization for Network modeling (D- NGPPF) framework, wherein binary network entries are modeled using a truncated Poisson distribution, the ideal number of network groups is discovered from the data itself and the characteristics of these groups smoothly evolve over time using a Gamma-markov chain. Exploiting the properties of the Negative Binomial distribution and a novel data augmentation technique, closed form Gibbs sampling updates are derived that yield superior empirical results for both synthetic and real world datasets.
+            </div> -->
+
+            <h4>Technical Session 2: Uncertain and Intermittent Time Series</h4>
+            <a name="session1"></a>
+            <div class="row" style="padding-bottom:5px">
+                <div class="col-lg-6">
+                    <a href="http://eecs.wsu.edu/~bminor/KDD_MiLeTS.pdf">Toward Learning and Mining from Uncertain Time-Series Data for Activity Prediction</a>
+                </div>
+                <div class="col-lg-5">
+                    Bryan Minor, Janardhan Rao Doppa and Diane Cook
+                </div>
+            </div>
+            <!--  <div class="row">
+                Prediction of human activities is important in a wide variety of fields. However, developing activity predictors that work well with the uncertainties surrounding activity data is a challenging task. In this paper, we present activity prediction algorithms that are designed to form accurate predictions in this environment by analyzing the task in the context of time-series mining techniques. We explore factors that contribute to uncertainty in activity data and discuss metrics that can be used to evaluate prediction performance. We evaluate our methods using activity data from 24 physical smart home testbeds and demonstrate that they can achieve reasonable accuracy. We also describe the results of a pilot study using our predictors in an activity prompting app and explore the effects of data variations on user experience.
+            </div> -->
+
+            <div class="row" style="padding-bottom:5px">
+                <div class="col-lg-6">
+                    <a href="http://arxiv.org/abs/1507.05455">AMP: a New Time-frequency Feature Extraction Method for Intermittent Time Series Data</a>
+                </div>
+                <div class="col-lg-6">
+                    Duncan Barrack, James Goulding, Keith Hopcraft, Simon Preston and Gavin Smith
+                </div>
+            </div>
+            <!-- <div class="row">
+                The characterisation of time-series data via their most salient features is extremely important in a range of machine learning task, not least of all with regards to classification and clustering. While there exist many feature extraction techniques suitable for non-intermittent time-series data, these approaches are not always appropriate for intermittent time-series data, where intermittency is characterized by constant values for large periods of time punctuated by sharp and transient increases or decreases in value. Motivated by this, we present aggregation, mode decomposition and projection (AMP) a feature extraction technique particularly suited to intermittent time-series data which contain time-frequency patterns. For our method all individual time-series within a set are combined to form a non-intermittent aggregate. This is decomposed into a set of components which represent the intrinsic time-frequency signals within the data set. Individual time-series can then be fit to these components to obtain a set of numerical features that represent their intrinsic time-frequency patterns. To demonstrate the effectiveness of AMP, we evaluate against the real word task of clustering intermittent time-series data. Using synthetically generated data we show that a clustering approach which uses the features derived from AMP significantly outperforms traditional clustering methods. Our technique is further exemplified on a real world data set where AMP can be used to discover groupings of individuals which correspond to real world sub-populations.
+            </div> -->
+
+            <div class="row" style="padding-bottom:5px">
+                <div class="col-lg-6">
+                    <a href="http://www.souhaib-bentaieb.com/papers/sigkdd-milets-probabilistic-forecasting.pdf">Probabilistic Time Series Forecasting with Boosted Additive Models: an Application to Smart Meter Data</a>
+                </div>
+                <div class="col-lg-6">
+                    Souhaib Ben Taieb, Raphael Huser, Rob J. Hyndman and Marc G. Genton
+                </div>
+            </div>
+            <!-- <div class="row">
+                A large body of the forecasting literature so far has been focused on forecasting the conditional mean of future observations. However, there is an increasing need for generating the entire conditional distribution of future observations in order to effectively quantify the uncertainty in time series data. We present two different methods for probabilistic time series forecasting that allow the inclusion of a possibly large set of exogenous variables. One method is based on forecasting both the conditional mean and variance of the future distribution using a traditional regression approach. The other directly computes multiple quantiles of the future distribution using quantile regression. We propose an implementation for the two methods based on boosted additive models, which enjoy many useful properties including accuracy, flexibility, interpretability and automatic variable selection. We conduct extensive experiments using electricity smart meter data, on both aggregated and disaggregated scales, to compare the two forecasting methods for the challenging problem of forecasting the distribution of future electricity consumption. The empirical results demonstrate that the mean and variance forecasting provides better forecasts for aggregated demand, while the flexibility of the quantile regression approach is more suitable for disaggregated demand. These results are particularly useful since more energy data will become available at the disaggregated level in the future. 
+            </div> -->
+        </div>
+
+        <div class="container">
+            <a name="org"></a>
+            <h3>Organization</h3>
+            <p>
+                <table>
+                    <tr>
+                        <td><b>Organizers</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Eamonn Keogh</td>
+                        <td>University of California Riverside</td>
+                    </tr>
+                    <tr>
+                        <td>Yan Liu</td>
+                        <td>University of Southern California</td>
+                    </tr>
+                    <tr>
+                        <td>Abdullah Mueen</td>
+                        <td>University of New Mexico</td>
+                    </tr>
+                    <tr>
+                        <td>David Kale</td>
+                        <td>University of Southern California</td>
+                    </tr>
+                </table>
+                <br>
+
+                <table>
+                    <tr>
+                        <td><b>Program Committee</b></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Jessica Lin</td>
+                        <td>George Mason University</td>
+                    </tr>
+                    <tr>
+                        <td>Anthony Bagnall</td>
+                        <td>University of East Anglia</td>
+                    </tr>
+                    <tr>
+                        <td>Josif Grabocka</td>
+                        <td>University of Hildesheim</td>
+                    </tr>
+                    <tr>
+                        <td>Gustavo Batista</td>
+                        <td>University of São Paulo</td>
+                    </tr>
+                    <tr>
+                        <td>Mohammad Taha Bahadori</td>
+                        <td>University of Southern California</td>
+                    </tr>
+                    <tr>
+                        <td>Spiros Papadimitriou</td>
+                        <td>Rutgers University</td>
+                    </tr>
+                    <tr>
+                        <td>Zhenhui Li</td>
+                        <td>Penn State University</td>
+                    </tr>
+                    <tr>
+                        <td>Gautam Das</td>
+                        <td>University of Texas at Arlington</td>
+                    </tr>
+                    <tr>
+                        <td>Zeeshan Syed</td>
+                        <td>University of Michigan</td>
+                    </tr>
+                    <tr>
+                        <td>Francois Petitjean</td>
+                        <td>Monash University</td>
+                    </tr>
+                </table>
+                <br>
+
+                <b>Contact:</b> <a href="mailto:milets2015@easychair.org">milets2015@easychair.org</a>
+            </p>
+            <p>
+            </p>
+        </div>
+    </div>
+
+    <!--CFP-->
+    <div class="container">
+        <a name="cfp"></a>
+        <h3>Call for Papers</h3>
+        <p>
+            <!--
+                <b>1st International Workshop on Mining and Learning from Time Series (MiLeTS)</b><br>
+                
+                August 10, 2015<br>
+                Sydney, Australia<br>
+                <a href="https://easychair.org/conferences/?conf=milets2015">Paper submission website</a>
+				-->
+            <table>
+                <tr>
+                    <td><b>Key Dates</b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Submission Deadline:</td>
+                    <td>June 11, 2015, 11:59 PM PST</td>
+                </tr>
+                <tr>
+                    <td>Notification:</td>
+                    <td>June 30, 2015, 11:59 PM PST</td>
+                </tr>
+                <tr>
+                    <td>Camera Ready Deadline:</td>
+                    <td>July 10, 2015, 11:59 PM PST</td>
+                </tr>
+                <tr>
+                    <td>Workshop:</td>
+                    <td>August 10, 2015</td>
+                </tr>
+            </table>
+        </p>
+        <!--
+            <p>
+                The inaugural MiLeTS workshop invites submission of manuscripts describing research on time series analysis and mining. Topics of interest include but are not limited to:
+            </p>
+            <ul>
+                <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.</li>
+                <li>BIG time series data.</li>
+                <li>Hardware acceleration techniques using GPUs, FPGAs and special processors.</li>
+                <li>Online, high-speed learning and mining from streaming time series.</li>
+                <li>Uncertain time series mining.</li>
+                <li>Privacy preserving time series mining and learning.</li>
+                <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.</li>
+                <li>Time series with special structure: spatiotemporal (e.g., wind patterns at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.</li>
+                <li>Time series with sparse or irregular sampling, non-random missing values, and special types of measurement noise or bias.</li>
+                <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.</li>
+                <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.</li>
+                <li>New, open, or unsolved problems in time series analysis and mining (see note below).
+                </li>
+            </ul><br>
+            -->
+        <p>
+            Submissions should follow the <a href="http://www.kdd.org/kdd2015/calls.html#calls-cfprt-formatting-requirements">SIGKDD formatting requirements</a> and will be evaluated using the <a href="http://www.kdd.org/kdd2015/calls.html#calls-cfprt-evaluation-and-decision-criteria">SIGKDD Research Track evaluation criteria</a>.
+            Preference will be given to papers that are reproducible, and authors are encouraged to share their data and code publicly whenever possible.
+        </p>
+        <p>
+            <b>Note on <i>open problem</i> submissions:</b> In order to promote new and innovative research on time series, we plan to accept a small number of high quality manuscripts describing <i>open problems</i> in time series analysis and mining.
+            Such papers should provide a clear, detailed description and analysis of a new or open problem that poses a significant challenge to existing techniques, as well as a thorough empirical investigation demonstrating that current methods are
+            insufficient.
+        </p>
+        <p>
+            Submissions will be managed via the <a href="https://easychair.org/conferences/?conf=milets2015">MiLeTS 2015 EasyChair website</a>.
+        </p>
+    </div>
+
+    <!-- MODAL FOR CONTACT -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">CONTACT US</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row centered">
+                        Contact: <a href="mailto:milets2015@easychair.org">milets2015@easychair.org</a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.html"></script>
+</body>
+
+</html>
