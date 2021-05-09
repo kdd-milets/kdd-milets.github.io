@@ -24,9 +24,10 @@ New, open, or unsolved problems in time series analysis and mining.
 
 ### Links
 
-* MiLeTS 2020: [The 6th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2020)
-* MiLeTS 2019: [The 5th Workshop on Mining and Learning from Time Series](https://milets19.github.io/)
-* MiLeTS 2018: [The 4th Workshop on Mining and Learning from Time Series](https://milets18.github.io/)
-* MiLeTS 2017: The 3rd Workshop on Mining and Learning from Time Series
-* MiLeTS 2016: The 2nd Workshop on Mining and Learning from Time Series
-* MiLeTS 2015: The 1st Workshop on Mining and Learning from Time Series
+* MiLeTS 2021: [The 7th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2021/)
+* MiLeTS 2020: [The 6th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2020/)
+* MiLeTS 2019: [The 5th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2019/)
+* MiLeTS 2018: [The 4th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2018/)
+* MiLeTS 2017: [The 3rd Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2017/)
+* MiLeTS 2016: [The 2nd Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2016/)
+* MiLeTS 2015: [The 1st Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2015/)
