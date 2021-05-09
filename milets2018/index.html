@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MiLeTs 2018, 4th SIGKDD Workshop on Mining and Learning from Time Series (MiLeTS), co-located with KDD 2018, London, United Kingdom">
+
+
+    <title>The 4th Mining and Learning from Time Series Workshop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114495477-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#keynote">Keynotes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#papers">Accepted Papers & Posters</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#call">CFP</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#dates">Dates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organization">Organizers</a>
+                    </li>
+                    <li>
+                        <a href="http://www-bcf.usc.edu/~liu32/milets17/" target="_blank">MiLeTS '17</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Held in conjunction with <a href="http://www.kdd.org/kdd2018/" target=_blank>KDD'18</a><br/> Aug 20, 2018 - London, United Kingdom
+                </div>
+                <div class="intro-heading">4th Workshop on <br/>Mining and Learning from Time Series</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+
+                        Time series data are ubiquitous. In domains as diverse as finance, entertainment, transportation and health care, we observe a fundamental shift away from parsimonious, infrequent measurement to nearly continuous monitoring and recording. Rapid advances
+                        in diverse sensing technologies, ranging from remote sensors to wearables and social sensing, are generating a rapid growth in the size and complexity of time series archives. Thus, although time series analysis has been studied
+                        extensively, its importance only continues to grow. What is more, modern time series data pose significant challenges to existing techniques (e.g., irregular sampling in hospital records and spatiotemporal structure in climate
+                        data). Finally, time series mining research is challenging and rewarding because it bridges a variety of disciplines and demands interdisciplinary solutions. Now is the time to discuss the next generation of temporal mining algorithms.
+                        The focus of MiLeTS workshop is to synergize the research in this area and discuss both new and open problems in time series analysis and mining. The solutions to these problems may be algorithmic, theoretical, statistical, or
+                        systems-based in nature. Further, MiLeTS emphasizes applications to high impact or relatively new domains, including but not limited to biology, health and medicine, climate and weather, road traffic, astronomy, and energy.
+                        <br/> The MiLeTS workshop will discuss a broad variety of topics related to time series, including:
+                    </p>
+
+                    <ul class="large text-muted">
+                        <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.
+                        </li>
+                        <li>BIG time series data.</li>
+                        <li>Hardware acceleration techniques using GPUs, FPGAs and special processors.</li>
+                        <li>Online, high-speed learning and mining from streaming time series.</li>
+                        <li>Uncertain time series mining.</li>
+                        <li>Privacy preserving time series mining and learning.</li>
+                        <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.
+                        </li>
+                        <li>Time series with special structure: spatiotemporal (e.g., wind patterns at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.
+                        </li>
+                        <li>Time series with sparse or irregular sampling, non-random missing values, and special types of measurement noise or bias.
+                        </li>
+                        <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.
+                        </li>
+                        <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.
+                        </li>
+                        <li>New, open, or unsolved problems in time series analysis and mining.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3 class="section-subheading text-muted">
+                        ICC Capital Suite Room 7 <br> 8:00 AM - 17:00 PM <br> August 20, 2018<br>
+                    </h3>
+
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-1 text-left">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-left ">
+                    <h3>MORNING SESSION</h3>
+                    <p>08:00-08:10 Opening remarks</p>
+                    <p>08:10-09:10 Keynote Talk</p>
+                    <ul>
+                        <li><strong>AI for Health - Augmenting Clinical Care</strong>, <em>Jenna Wiens</em></li>
+                        <!--<li><strong>Learning from Time Series Sensor Data</strong>, <em>Jure Leskovec</em></li>-->
+                    </ul>
+                    <p>09:10-09:30 Contributed Talk</p>
+                    <ul>
+                        <li><strong>Sample Path Generation for Probabilistic Demand Forecasting </strong>, <em>Dhruv
+                        Madeka, Lucas Swiniarski, Dean Foster, Leonid Razoumov, Ruofeng Wen and Kari Torkkola</em></li>
+                    </ul>
+                    <p>09:30-10:00 Coffee Break</p>
+                    <p>10:00-11:00 Contributed Talks</p>
+                    <ul>
+                        <li><strong>Graph-Based Deep Modeling and Real Time Forecasting of Sparse Spatio-Temporal
+                        Data</strong>, <em>Bao Wang, Xiyang Luo, Fangbo Zhang, Baichuan Yuan, Andrea Bertozzi and
+                        Jeffrey Brantingham</em></li>
+                        <li><strong>A Nonparametric Approach to Ensemble Forecasting</strong>, <em>Eugene Chen, Xiaojing
+                        Dong, Zhiyu Wang and Zhenyu Yan</em></li>
+                        <li><strong>Nested LSTM: Modeling Taxonomy and Temporal Dynamics in Location-Based Social
+                        Network</strong>, <em>Xuan-An Tseng, Da-Cheng Juan, Chun-Hao Liu, Wei Wei, Yu-Ting Chen and
+                        Shih-Chieh Chang</em></li>
+                    </ul>
+                    <p>11:00-12:00 Keynote Talk</p>
+                    <ul>
+                        <li><strong>Identifying Shifts in Evolutionary Semantic Spaces</strong>, <em>Qiaozhu Mei</em></li>
+                    </ul>
+                    <p>12:00-13:00 Lunch Break</p>
+                    <h3>AFTERNOON SESSION</h3>
+                    <p>13:00-14:00 Keynote Talk</p>
+                    <ul>
+                        <li><strong>Generation in Neural Machine Translation</strong>, <em>Kyunghyun Cho</em></li>
+                    </ul>
+                    <p>14:00-15:30 Poster Session &amp; Coffee Break</p>
+                    <p>15:30-16:50 Contributed Talks</p>
+                    <ul>
+                        <li><strong>Learning Latent Events from Network Message Logs</strong>, <em>Siddhartha Satpathi, R
+                        Srikant, Supratim Deb and He Yan</em></li>
+                        <li><strong>MDL-based Development of Ensembles with Active Learning over Evolving Data
+                        Streams</strong>, <em>Samaneh Khoshrou and Mykola Pechenizkiy</em></li>
+                        <li><strong>Knowledge Discovery Approach from Blockchain, Crypto-currencies, and Financial Stock
+                        Exchanges,</strong> <em>Sofiane Lagraa, J&eacute;r&eacute;my Charlier and Radu State</em></li>
+                        <li><strong>Econometric Modeling of Systemic Risk: A Time Series Approach</strong>, <em>Jalal
+                        Etesami, Ali Habibnia and Negar Kiyavash</em></li>
+                    </ul>
+                    <p>16:50-17:00 Concluding Remarks</p>
+                </div>
+
+                <div class="col-lg-1 text-left">
+                    &nbsp;
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Keynote Section -->
+
+    <section id="keynote">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                    <!--<h3 class="section-subheading text-muted">More keynote speakers will be announced ...</h3>-->
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="http://www-personal.umich.edu/~wiensj/" target="_blank">
+                            <img src="img/jenna_wiens.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Jenna Wiens">
+                        </a>
+                        <h4><a href="http://www-personal.umich.edu/~wiensj/" target="_blank">Jenna Wiens</a></h4>
+                        <p class="text-muted">Assistant Professor<br/>University of Michigan</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>AI for Health - Augmenting Clinical Care</h3>
+                    <p>
+                        Today, we are collecting an immense amount of health data both inside and outside of the hospital. While clinicians are studying ever more data about their patients, they are still ignoring the vast majority of it. Transforming these observational data
+                        into actionable knowledge is challenging due to a number of reasons including the presence of confounders, missing context, and complex longitudinal relationships. At the same time, due to the high-stakes nature of healthcare,
+                        the field requires tools that are not only accurate, but also interpretable and robust. In this talk, I will present ongoing work focused on developing solutions to these challenges. In particular, I will show how clinical domain
+                        expertise can be used to help guide model training and selection.
+                        <br>
+                        <b>Bio</b><br> Jenna Wiens is a Morris Wellman Assistant Professor of Computer Science and Engineering (CSE) at the University of Michigan in Ann Arbor. Her primary research interests lie at the intersection of machine learning,
+                        data mining, and healthcare. She is particularly interested in time-series analysis. The overarching goal of her research agenda is to develop the computational methods needed to help organize, process, and transform patient data
+                        into actionable knowledge. Jenna received her PhD from MIT in 2014. In 2015 she was named Forbes 30 under 30 in Science and Healthcare; she received an NSF CAREER Award in 2016; and recently she was named to the MIT Tech Review's
+                        list of Innovators Under 35.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="http://www-personal.umich.edu/~qmei/" target="_blank">
+                            <img src="img/qiaozhu_mei2.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Qiaozhu Mei">
+                        </a>
+                        <h4><a href="http://www-personal.umich.edu/~qmei/" target="_blank">Qiaozhu Mei</a></h4>
+                        <p class="text-muted">Associate Professor<br/>University of Michigan</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Identifying Shifts in Evolutionary Semantic Spaces</h3>
+                    <p>
+
+                        <br>
+                        <b>Bio</b><br> Qiaozhu Mei is an associate professor at the University of Michigan School of Information. He received his PhD degree from the Department of Computer Science at the University of Illinois at Urbana-Champaign and
+                        Bachelor's degree from Peking University. His interested in analyzing large scale text data, social and information networks, and user behavior data. His research is broadly applied to Web search and mining, social computing, scientific
+                        literature mining, and health informatics. He also broadly interested in natural language processing, machine learning, and social network analysis.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="http://www.kyunghyuncho.me/" target="_blank">
+                            <img src="img/cho_kyunghyun.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Kyunghyun Cho">
+                        </a>
+                        <h4><a href="http://www.kyunghyuncho.me/" target="_blank">Kyunghyun Cho</a></h4>
+                        <p class="text-muted">Assistant Professor<br/>New York University</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Generation in Neural Machine Translation</h3>
+                    <p>
+                        <!--Abstract: TBD-->
+                        <br>
+                        <b>Bio</b><br> Kyunghyun Cho is an assistant professor of computer science and data science at New York University and a research scientist at Facebook AI Research. He was a postdoctoral fellow at University of Montreal until summer
+                        2015 under the supervision of Prof. Yoshua Bengio, and received PhD and MSc degrees from Aalto University early 2014 under the supervision of Prof. Juha Karhunen, Dr. Tapani Raiko and Dr. Alexander Ilin. He tries his best to find
+                        a balance among machine learning, natural language processing, and life, but almost always fails to do so.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://cs.stanford.edu/~jure/" target="_blank">
+                            <img src="img/jure_leskovec2.jpg" style="height: 240px; width:240px;" class="img-responsive img-circle" alt="Jure Leskovec">
+                        </a>
+                        <h4><a href="https://cs.stanford.edu/~jure/" target="_blank">Jure Leskovec</a></h4>
+                        <p class="text-muted">Associate Professor<br/>Stanford University</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Learning from Time Series Sensor Data (Cancelled) </h3>
+                    <p>
+                        Many applications, ranging from automobiles to financial markets and wearable sensors, generate large amounts of time series data. In most cases, this data is multivariate and heterogeneous, where the readings come from various types of entities, or sensors.
+                        These time series datasets are often sparse, unlabeled, dynamic, and difficult to interpret. Therefore, there is a need for methods that learn interpretable structure from such data, especially for methods that can apply across
+                        many different domains. In this talk, I will discuss several approaches for analyzing time series data, as well as future directions of research in this field, incorporating different research areas ranging from distributed convex
+                        optimization to deep learning.
+
+                        <br>
+                        <b>Bio</b><br> Jure Leskovec is Associate Professor of Computer Science at Stanford University, Chief Scientist at Pinterest, and investigator at Chan Zuckerberg Biohub. His research focuses on machine learning and data mining
+                        applied to social, information and biological networks, their evolution, and the diffusion of information and influence over them. Computation over massive data is at the heart of his research and has applications in computer science,
+                        social sciences, economics, marketing, and healthcare. This research has won several awards including a Lagrange Prize, Microsoft Research Faculty Fellowship, the Alfred P. Sloan Fellowship, and numerous best paper awards. Leskovec
+                        received his bachelor's degree in computer science from University of Ljubljana, Slovenia, and his PhD in in machine learning from the Carnegie Mellon University and postdoctoral training at Cornell University.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Accepted Papers Section -->
+    <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <!--h3 class="section-heading">TBA</h3> -->
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_6.pdf"> Graph-Based Deep Modeling and Real Time Forecasting of Sparse
+                        Spatio-Temporal Data
+
+                    </a> Bao Wang, Xiyang Luo, Fangbo Zhang, Baichuan Yuan, Andrea Bertozzi and Jeffrey Brantingham
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_14.pdf"> Sample Path Generation for Probabilistic Demand Forecasting
+
+                    </a> Dhruv Madeka, Lucas Swiniarski, Dean Foster, Leonid Razoumov, Ruofeng Wen and Kari Torkkola
+
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_4.pdf"> Knowledge Discovery Approach from Blockchain,
+                        Crypto-currencies, and Financial Stock Exchanges
+                    </a> Sofiane Lagraa, Jérémy Charlier and Radu State
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_13.pdf"> Learning Latent Events from Network Message Logs
+                    </a> Siddhartha Satpathi, Supratim Deb, R Srikant and He Yan
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_18.pdf"> A Nonparametric Approach to Ensemble Forecasting
+                    </a> Eugene Chen, Xiaojing Dong, Zhiyu Wang and Zhenyu Yan
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_16.pdf"> MDL-based Development of Ensembles with Active Learning over
+                        Evolving Data Streams
+                    </a> Samaneh Khoshrou and Mykola Pechenizky
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_8.pdf"> Nested LSTM: Modeling Taxonomy and Temporal Dynamics in
+                        Location-Based Social Network
+                    </a> Xuan-An Tseng, Da-Cheng Juan, Chun-Hao Liu, Wei Wei, Yu-Ting Chen, Shih-Chieh Chang and Jia-Yu Pan
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_9.pdf"> Econometric Modeling of Systemic Risk: A Time Series Approach
+                    </a> Jalal Etesami, Ali Habibnia and Negar Kiyavash
+
+                    </p>
+
+                    <!-- End Paper List -->
+
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="posters" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Posters</h2>
+                    <!-- <h3 class="section-heading">TBA</h3> -->
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+
+
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_21.pdf"> Hyper-network based Change Point Detection in Dynamic
+                        Networks
+                    </a> Tingting Zhu, Ping Li, Kaiqi Chen, Yan Chen and Lanlan Yu
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_19.pdf"> Comparing Prediction Methods in Anomaly Detection: An
+                        Industrial Evaluation
+                    </a> Ralf Greis, Cu Duy Nguyen and Thorsten Ries
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_11.pdf"> Detecting Granger-causal relationships in global
+                        spatio-temporal climate data via multi-task learning
+                    </a> Christina Papagiannopoulou, Diego Miralles, Matthias Demuzere, Niko Verhoest and Willem Waegeman
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_17.pdf"> Manifold Alignment and Wavelet Analysis For Fault Detection
+                        Across Machines
+                    </a> Hala Mostafa, Soumalya Sarkar and George Ekladious
+
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_2.pdf"> Reconstruction and Regression Loss for Time-Series Transfer
+                        Learning
+                    </a> Nikolay Laptev, Jiafan Yu and Ram Rajagopal
+                    </p>
+                    <p class="row  large text-muted">
+                        <a href="papers/milets18_paper_5.pdf"> Finding Multidimensional Patterns in Multidimensional Time
+                        Series
+                    </a> Emil Laftchiev and Yuchao Liu
+
+                    </p>
+
+
+                    <!-- End Poster List -->
+
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Call for Papers Section -->
+    <section id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Call for Papers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Submissions should follow the <a href="http://www.kdd.org/kdd2018/calls/view/kdd-2018-call-for-research-papers">SIGKDD
+                    formatting requirements</a> and will be evaluated using the <a href="http://www.kdd.org/kdd2018/calls/view/kdd-2018-call-for-research-papers">SIGKDD
+                    Research Track evaluation criteria</a>. Preference will be given to papers that are reproducible, and authors are encouraged to share their data and code publicly whenever possible. Submissions are limited to a total of 10 pages, including
+                        all content and references, and must be in PDF format and formatted according to the new
+                        <a href="https://www.acm.org/publications/proceedings-template." target="_blank"> Standard ACM
+                        Conference Proceedings Template</a>. Submissions will be managed via the <a href="https://easychair.org/conferences/?conf=milets18">MiLeTS
+                    2018 EasyChair website</a>.
+                    </p>
+                    <p class="large text-muted">
+                        <b>Note on <i>open problem</i> submissions:</b> In order to promote new and innovative research on time series, we plan to accept a small number of high quality manuscripts describing <i>open
+                    problems</i> in time series analysis and mining. Such papers should provide a clear, detailed description and analysis of a new or open problem that poses a significant challenge to existing techniques, as well as a thorough empirical
+                        investigation demonstrating that current methods are insufficient.
+                    </p>
+
+                    <p class="large text-muted">
+
+                        <b>Instructions for Oral/Poster presentation:</b> Every accepted submission will have a poster presentation in the <a href="#program">afternoon session</a>. The size of the poster is recommendation to be A0 (33.1 x 46.8 in) or
+                        smaller. Besides, each accepted (oral) paper will have a 20 minutes presentation (including Q&A) at <a href="#program">assigned time
+                    slot</a>.
+                    </p>
+
+                    <p class="large text-muted">
+                        Any questions may be directed to the workshop e-mail address: <a href="mailto:kdd.milets18@gmail.com">kdd.milets18@gmail.com</a>.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Dates Section -->
+    <section id="dates" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Key Dates</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-left">
+                    &nbsp;
+                </div>
+                <div class="col-lg-6 text-left">
+                    <div class="col-md-12">
+                        <!--<p class="large text-muted">-->
+                        <!--<b>Paper Submission Deadline:</b> <strike class="text-muted">TBD</strike>-->
+                        <!--</p>-->
+                        <p class="large text-muted">
+                            <b>Paper Submission Deadline:</b> <span style="text-decoration: line-through;">May 8th, 2018</span>, May 15th, 2018 11:59PM Alofi Time
+                        </p>
+                        <p class="large text-muted">
+                            <b>Author Notification:</b> <span style="text-decoration: line-through;">June 8th, 2018 </span>, June 11th, 2018
+                        </p>
+                        <p class="large text-muted">
+                            <b>Camera Ready Version:</b> June 29th, 2018
+                        </p>
+                        <p class="large text-muted">
+                            <b>Workshop:</b> August 20th, 2018
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Workshop Organizers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+
+            <div class="col-sm-1">
+                &nbsp;
+            </div>
+
+
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="img/eamonn.jpg" class="img-responsive img-circle" alt="">
+                    <h4><a href="http://www.cs.ucr.edu/~eamonn/">Eamonn Keogh</a></h4>
+                    <p class="text-muted">University of California Riverside</p>
+                </div>
+            </div>
+
+            <div class="col-sm-1">
+                &nbsp;
+            </div>
+
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="img/yanliu.jpg" class="img-responsive img-circle" alt="">
+                    <h4><a href="http://www-bcf.usc.edu/~liu32/">Yan Liu</a></h4>
+                    <p class="text-muted">University of Southern California</p>
+                </div>
+            </div>
+
+
+            <div class="col-sm-1">
+                &nbsp;
+            </div>
+
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="img/mueen.jpg" class="img-responsive img-circle" alt="">
+                    <h4><a href="http://www.cs.unm.edu/~mueen/">Abdullah Mueen </a></h4>
+                    <p class="text-muted">University of New Mexico</p>
+                </div>
+            </div>
+
+            <div class="col-sm-1">
+                &nbsp;
+            </div>
+
+            <div class="col-sm-2">
+                <div class="team-member">
+                    <img src="img/yaguang.jpg" class="img-responsive img-circle" alt="">
+                    <h4><a href="https://liyaguang.github.io/">Yaguang Li</a></h4>
+                    <p class="text-muted">University of Southern California</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
