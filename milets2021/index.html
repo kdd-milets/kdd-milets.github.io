@@ -253,9 +253,14 @@
                 </div>
 
                 <div class="col-sm-8 text-justify">
-                    <!-- <h3> Talk title </h3>
+                    <h3> Deep Learning Data-driven approaches for Epidemic Forecasting </h3>
                     <p>
-                    </p> -->
+                        The devastating impact of the currently unfolding global COVID-19 pandemic and those of the Zika, SARS, MERS, and Ebola outbreaks over the past decade has sharply illustrated our enormous vulnerability to emerging infectious diseases. There are many questions
+                        that are being studied by epidemiologists and public officials during these outbreaks. Building on our prior work, we have been pursuing multiple activities amidst the COVID-19 pandemic in the United States, collaborating with
+                        partners in academia, industry and public health agencies, from award-winning work on helping forecast pandemic trajectories (also shown on the CDC website) to designing more localized and less burdensome campus interventions.
+                        In this talk, I will briefly give an overview of our recent research in designing well calibrated, robust, accurate and interpretable deep learning models for epidemic forecasting, illustrating the important role data science and
+                        machine learning have to play for pandemic prevention and prediction.
+                    </p>
                     <b>Bio</b><br> B. Aditya Prakash is an Associate Professor in the College of Computing at the Georgia Institute of Technology (“Georgia Tech”). He received a Ph.D. from the Computer Science Department at Carnegie Mellon University
                     in 2012, and a B.Tech (in CS) from the Indian Institute of Technology (IIT) -- Bombay in 2007. He has published one book, more than 80 papers in major venues, holds two U.S. patents and has given several tutorials at leading conferences.
                     His work has also received multiple best-of-conference, best paper and travel awards. His research interests include Data Science, Machine Learning and AI, with emphasis on big-data problems in large real-world networks and time-series,
@@ -280,9 +285,15 @@
                 </div>
 
                 <div class="col-sm-8 text-justify">
-                    <!-- <h3>Talk title</h3>
+                    <h3>Modeling raw, messy time series data with latent stochastic differential equations</h3>
                     <p>
-                    </p> -->
+                        Much real-world data is sampled at irregular intervals, but most time series models require regularly-sampled data. Continuous-time models address this problem, but until now only deterministic models (based on ordinary differential equations) or linear-Gaussian
+                        models were efficiently trainable with millions of parameters. We construct a scalable algorithm for computing gradients through samples from stochastic differential equations (SDEs), and for gradient-based stochastic variational
+                        inference in function space, all with the use of adaptive black-box SDE solvers. This allows us to fit a new family of richly-parameterized distributions over time series, in which neural networks can parameterize both dynamics
+                        and likelihoods. We demonstrate these latent SDEs on motion capture data, and provide an open-source PyTorch library for fitting large SDE models.
+                    </p>
+                    <p><a href=" https://arxiv.org/abs/2001.01328" target="_blank">[Paper]</a>
+                        <a href="https://github.com/google-research/torchsde">[Code]</a></p>
 
                     <br>
                     <b>Bio</b><br>David Duvenaud is an assistant professor at the University of Toronto. His research focuses on constructing deep probabilistic models to help predict, explain and design things. For example: Neural ODEs, a kind of continuous-depth
@@ -310,10 +321,14 @@
                 <div class="col-sm-8 text-justify">
                     <h3>Irrational Exuberance: Why we should not believe 99% of papers on Time Series Anomaly Detection
                     </h3>
-
+                    In the last five years there has been an explosion of paper on time series anomaly detection (TSAD) appearing in all the top conferences. In this talk I will make a surprising claim. Almost all such papers suffer from various flaws, including: Testing
+                    on deeply flawed datasets, use of inappropriate measures of success, non-reproducible experiments, unjustified complexity, and ignoring competitive decades-old methods. I will demonstrate that because of these flaws, we should not
+                    believe the claims of most papers on time series anomaly detection. Rather than a completely pessimistic talk, I will take this opportunity to release a new set of 250 benchmark datasets and guidelines that will go some way to mitigating
+                    the problems.
                     <br>
                     <b>Bio</b><br>Eamonn Keogh is a Distinguished Professor of Computer Science at the University of California Riverside. With his students, he invented many of the most commonly used time series primitives, including Shapelets, Discords,
-                    Motifs, SAX, PAA, and the Matrix Profile. He has won at least one best paper award in the major data mining conferences (SIGMOD, SIGKDD, IEEE, SDM) and his h-index of 100 reflects the significant amount of citations his work has attracted.
+                    Motifs, SAX, PAA, LB_keogh and the Matrix Profile. He has won at least one best paper award in the major data mining conferences (SIGMOD, SIGKDD, ICDM, SDM) and his h-index of 100 reflects the significant amount of citations his work
+                    has attracted.
 
                     </p>
                 </div>
@@ -333,10 +348,11 @@
                 </div>
 
                 <div class="col-sm-8 text-justify">
-                    <!-- <h3>Title </h3>
+                    <h3>On the Interface between Optimal Transport and Time Series </h3>
                     <p>
-
-                    </p> -->
+                        I will start this talk with a short intro to optimal transport theory, and mention a few interesting areas at the intersection of both optimal transport and time series. I will describe in more detail the JKO proximal gradient descent scheme and show
+                        how it can be used to model time series of snapshots of populations (joint work with Charlotte Bunne, Laetitia Papaxanthos and Andreas Krause) and also the Wasserstein DTW discrepancy for such time series.
+                    </p>
                     <br>
                     <b>Bio</b><br> Marco Cuturi joined Google Brain, in Paris, in October 2018. He graduated from ENSAE (2001), ENS Cachan (Master MVA, 2002) and holds a PhD in applied maths obtained in 2005 at Ecole des Mines de Paris. He worked as a
                     post-doctoral researcher at the Institute of Statistical Mathematics, Tokyo, between 11/2005 and 03/2007. He worked in the financial industry between 04/2007 and 09/2008. After working at the ORFE department of Princeton University
