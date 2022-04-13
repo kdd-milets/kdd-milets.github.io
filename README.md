@@ -2,7 +2,7 @@
 
 ### MiLeTS 2021
 
-[The 7th Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2021)
+[8th SIGKDD International Workshop on Mining and Learning from Time Series](https://kdd-milets.github.io/milets2022)
 
 ### Introduction
 Time series data are ubiquitous. In domains as diverse as finance, entertainment, transportation and health care, we observe a fundamental shift away from parsimonious, infrequent measurement to nearly continuous monitoring and recording. Rapid advances in diverse sensing technologies, ranging from remote sensors to wearables and social sensing, are generating a rapid growth in the size and complexity of time series archives. Thus, although time series analysis has been studied extensively, its importance only continues to grow. What is more, modern time series data pose significant challenges to existing techniques (e.g., irregular sampling in hospital records and spatiotemporal structure in climate data). Finally, time series mining research is challenging and rewarding because it bridges a variety of disciplines and demands interdisciplinary solutions. Now is the time to discuss the next generation of temporal mining algorithms. The focus of MiLeTS workshop is to synergize the research in this area and discuss both new and open problems in time series analysis and mining. The solutions to these problems may be algorithmic, theoretical, statistical, or systems-based in nature. Further, MiLeTS emphasizes applications to high impact or relatively new domains, including but not limited to biology, health and medicine, climate and weather, road traffic, astronomy, and energy.
