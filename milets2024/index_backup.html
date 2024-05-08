@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MiLeTS 20243, The 10th Mining and Learning from Time Series Workshop: From Classical Methods to LLMs, co-located with KDD 2024, Barcelona, Spain">
+    <meta property="og:image" content="https://kdd-milets.github.io/milets2023/img/thumbnail.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The 10th Mining and Learning from Time Series Workshop: From Classical Methods to LLMs">
+    <meta property="og:description" content="The 10th Mining and Learning from Time Series Workshop: From Classical Methods to LLMs">
+
+
+    <title>The 10th Mining and Learning from Time Series Workshop: From Classical Methods to LLMs</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/agency.css?v=3" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114495477-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-114495477-1');
+    </script>
+
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#introduction">Intro</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program">Program</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#keynote">Keynotes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#papers">Accepted Paper & Posters</a>
+                    </li>
+                   <!-- <li>
+                        <a class="page-scroll" href="#call">CFP</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll" href="#dates">Dates</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#organization">Organizers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#program_committee">PC</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://kdd-milets.github.io/milets2023/" target="_blank">MiLeTS '23</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text" style="color:white;">
+
+                <div class="intro-heading">The 10th Mining and Learning from Time Series Workshop: From Classical Methods to LLMs</div>
+                <div class="intro-lead-in">Held in conjunction with <a href="https://kdd2024.kdd.org/" target=_blank>KDD'24</a><br/> Aug 25th, 2024
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" style="padding-top: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Introduction</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Time series data are ubiquitous. In domains as diverse as finance, retail, entertainment, transportation and health care, we observe a fundamental shift away from parsimonious, infrequent measurement to nearly continuous monitoring and recording. Recent
+                        advances in diverse sensing technologies, ranging from remote sensors to wearables and social sensing, are generating a rapid growth in the size and complexity of time series archives. Thus, although time series analysis has been studied extensively, its importance only continues to grow. What is more, modern time series data pose significant challenges to existing techniques (e.g., irregular sampling in hospital records and spatiotemporal structure in
+                        climate data). Finally, time series mining research is challenging and rewarding because it bridges a variety of disciplines and demands interdisciplinary solutions. Now is the time to discuss the next generation of temporal mining
+                        algorithms. 
+
+                        The focus of MiLeTS workshop is to synergize the research in this area and discuss both new and open problems in time series analysis and mining. The solutions to these problems may be algorithmic, theoretical, statistical,
+                        or systems-based in nature. Further, MiLeTS emphasizes applications to high impact or relatively new domains, including but not limited to biology, health and medicine, climate and weather, road traffic, astronomy, and energy.
+                        <br/> The MiLeTS workshop will discuss a broad variety of topics related to time series, including:
+                    </p>
+
+                    <ul class="large text-muted">
+                        <li> Time series forecasting and prediction using classical approaches
+                        </li>
+                        <li> Time series forecasting and prediction using LLMs
+                        </li>
+                        <li>Time series pattern mining and detection, representation, searching and indexing, classification, clustering, prediction, forecasting, and rule mining.
+                        </li>
+                        <li>Time series with special structure: spatiotemporal (e.g., traffic speeds at different locations), relational (e.g., patients with similar diseases), hierarchical, etc.
+                        </li>
+                        <li>Time series with sparse or irregular sampling, missing values at and not at random, and special types of measurement noise or bias.
+                        </li>
+                        <li>Time series that are multivariate, high-dimensional, heterogeneous, etc., or that possess other atypical properties.
+                        </li>
+                        <li>Time series analysis using less traditional approaches, such as deep learning and subspace clustering.</li>
+                        <li>Privacy preserving time series mining and learning.</li>
+                        <li>Online, high-speed learning and mining from streaming time series.</li>
+                        <li>Uncertain time series mining.</li>
+                        <li>Applications to high impact or relatively new time series domains, such as health and medicine, road traffic, and air quality.
+                        </li>
+                        <li>New, open, or unsolved problems in time series analysis and mining.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Schedule</h2>
+                    <h3>TBA</h3>
+                    
+                   
+                </div>
+            </div>
+
+ 
+            <!--<div class="row">
+                <div class="col-lg-1 text-left">
+                    &nbsp;
+                </div>
+                  
+               <div class="col-lg-10 text-left ">
+                    
+                    <p>01:00-01:15 Opening remarks</p>
+                    <p>01:15-2:00 Keynote Talk </p>
+                    <ul>
+                        <li><strong> Robust and Intelligent Time Series Analysis and Applications </strong>, <em>Prof. Wotao Yin</em></li>
+                    </ul>
+                
+                    <p>2:50-2:45 Keynote Talk </p>
+                    <ul>
+                        <li><strong> Modeling Temporal Data via Knowledge-Guided Machine Learning: A New Framework for Accelerating Scientific Discovery and Addressing Global Environmental Challenges
+                            </strong>, <em>Prof. Vipin Kumar</em></li>
+                    </ul>  
+                   
+                    <p>2:45-3:30 Poster Session + Coffee Break</p>
+                    <p>3:30-4:10 Contributed Talks </p>
+                    
+                    <ul>
+                        <li>
+                            <strong>Deep Sequence Modeling for Event Log-based Predictive Maintenance</strong>. Yun Zhou, Yawei Wang, Huan Song, Tesfagabir Meharizghi, Mohamad Al Jazaery, Denisse Colin-Magana, Aruna Abeyakoon and Panpan Xu.</li>
+                        <li>
+                            <strong>Dynamic Ensemble for Probabilistic Time-series forecasting via Deep Reinforcement Learning</strong>. Yuhao Ding, Youngsuk Park, Karthick Gopalswamy, Hilaf Hasson, Yuyang Wang and Jun Huan.</li>
+                        <li>
+                            <strong>VQ-TR: Vector Quantized Attention for Time Series Forecasting</strong>. Kashif Rasul, Umang Gupta, Hena Ghonia, Anderson Schneider and Yuriy Nevmyvaka.</li>
+                        <li>
+                            <strong>Long-Range Transformers for Dynamic Spatiotemporal Forecasting</strong>. Jake Grigsby, Zhe Wang, Nam H Nguyen and Yanjun Qi.
+                        </li>
+
+                        <li>
+                            <strong> STNN-SDE: Continuous Stochastic Spatial-Temporal Representation Learning via Latent Stochastic Differential Equations</strong>. Yanbo Xu, Piyush Patil, Lingkai Kong and Chao Zhang.</li>
+                        </ul>
+
+               
+                    
+                    <p>4:10-4:55 pm Keynote Talk </p>
+                     <ul>
+                        <li><strong>Convolutional kernels for effective and scalable time series analytics</strong>, <em>Prof. Geoff Webb</em></li>
+                    </ul>
+
+                    <p>4:55-5:00 pm Concluding Remarks</p>
+                </div> 
+           
+            </div> 
+        </div>
+    </section>
+-->
+
+    <!-- Keynote Section -->
+
+    <section id="keynote">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Speakers</h2>
+                    
+                </div>
+                
+            </div>
+
+        <!-- Vipin Kumar -->
+             <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://www-users.cse.umn.edu/~kumar001/" target="_blank">
+                            <img src="img/Vipin_Kumar.jpg" style="height: 360px; width:300px;" class="img-responsive img-circle" alt="Vipin Kumar">
+                        </a>
+                        <h4><a href="https://www-users.cse.umn.edu/~kumar001/" target="_blank">Vipin Kumar</a></h4>
+                        <p class="text-muted">Regents Professor and William Norris Endowed Chair, <br/> Department of Computer Science and Engineering, <br/>
+                    Director, CSE Data Science Initiative <br/>University of Minnesota</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Modeling Temporal Data via Knowledge-Guided Machine Learning: A New Framework for Accelerating Scientific Discovery and Addressing Global Environmental Challenges </h3>
+                    <p> Ability to effectively model complex temporal data is central to addressing global environmental chal-lenges, as it can improve our ability to understand the behavior of environmental systems and how they respond to changing climate and human actions. Process-based models of dynamical systems are often used to study a variety of environmental systems. Despite their extensive use, these models have several well-known limitations due to incomplete or inaccurate representations of the physical processes being modeled. There is a tremendous opportunity to systematically advance modeling in these domains by using state of the art machine learning (ML) methods that have already revolution-ized computer vision and language translation. However, capturing this opportunity is contingent on a paradigm shift in data-intensive scientific discovery since the “black box” use of ML often leads to seri-ous false discoveries in scientific applications.  Because the hypothesis space of scientific applications is often complex and exponentially large, an uninformed data-driven search can easily select a highly complex model that is neither generalizable nor physically interpretable, resulting in the discovery of spurious relationships, predictors, and patterns. This problem becomes worse when there is a scarcity of labeled samples, which is quite common in science and engineering domains.
+
+                    This talk makes the case that in real-world systems that are governed by physical processes, there is an opportunity to take advantage of fundamental physical principles to inform the search of a physical-ly meaningful and accurate ML model.  While this talk will illustrate the potential of the knowledge-guided machine learning (KGML) paradigm in the context of environmental problems (e.g., Fresh water science, Hydrology, Agronomy), the paradigm has the potential to greatly advance the pace of discov-ery in a diverse set of  discipline where mechanistic models are used, e.g., climate science, weather forecasting, and pandemic management.
+
+                    </p>
+                    <p><b>Biography</b><br> Vipin Kumar is a Regents Professor and holds William Norris Chair in the department of Computer Science and Engineering  at the University of Minnesota.  His research spans data mining, high-performance computing, and their applications in Climate/Ecosystems and health care.  He also served as the Director of Army High Performance Computing Research Center (AHPCRC) from 1998 to 2005.  He has authored over 400 research articles, and co-edited or coauthored 11 books including two widely used text books ``Introduction to Parallel Computing",  "Introduction to Data Mining", and a recent edited collection, “Knowledge Guided Machine Learning”. Kumar's current major research focus is on knowledge-guided machine learning and its applications  to understanding the impact of human induced changes on the Earth and its environment. Kumar’s research on this topic has been funded by NSF’s AI Institutes,  BIGDATA, INFEWS, HDR, STC, and GCR programs, as well as ARPA-E, DARPA, and USGS.   He has recently finished serving as the Lead PI of a 5-year, $10 Million pro-ject, "Understanding Climate Change - A Data Driven Approach", funded by the NSF's Expeditions in Computing program.   Kumar is a Fellow of the AAAI,  ACM, IEEE, AAAS, and SIAM.  Kumar's founda-tional research in data mining and high performance computing has been honored by the ACM SIGKDD 2012 Innovation Award, which is the highest award for technical excellence in the field of Knowledge Discovery and Data Mining (KDD), the 2016 IEEE Computer Society Sidney Fernbach Award, one of IEEE Computer Society's highest awards in high performance computing, and Test-of-time award from 2021 Supercomputing conference (SC21). 
+
+
+                    </p>
+                </div>
+            </div>
+        
+
+
+            <!-- Wotoa Yin-->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://wotaoyin.mathopt.com/" target="_blank">
+                            <img src="img/Wotao_Yin.jpg" style="height: 360px; width:300px;" class="img-responsive img-circle" alt="Wotao Yin">
+                        </a>
+                        <h4><a href="https://wotaoyin.mathopt.com/" target="_blank">Wotao Yin
+                        </a></h4>
+                        <p class="text-muted">Director of Decision Intelligence Lab <BR/>
+                        Damo Academy, Alibaba Group</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Robust and Intelligent Time Series Analysis and Applications</h3>
+                    <p> In this talk, we present the robust and intelligent approaches toward time series analysis developed by Alibaba DAMO Academy - Decision Intelligence Lab. We will overview our techniques of periodicity detection, trend filtering, and seasonal-trend decomposition, which allow us to handle complex patterns and anomalies with precision. Moving beyond theory, we will discuss how we apply techniques in forecasting and anomaly detection, with an emphasis on explainable electricity forecasting, as well as disucssing our products such as eForecaster and MindOpt, and AIOps solutions. This talk will also highlight how anomaly detection leads to root cause analysis and how forecasting informs decision-making processes, such as autoscaling.
+
+
+                    </p>
+                    <p><b>Biography: </b><br> Dr. Yin received my Ph.D. degree in operations research from Columbia University in 2006 under Prof. Donald Goldfarb. Before joining Alibaba US in 2019, he was a Professor in the Department of Mathematics, University of California, Los Angeles. During 2006–2013, he was with the Department of Computational and Applied Mathematics at Rice University. Dr. Yin's research interests include computational optimization and its applications in signal processing, machine learning, and other data science problems. He has won the NSF CAREER award in 2008, an Alfred P. Sloan Research Fellowship in 2009, a Morningside Gold Medal in 2016, a Damo Award in 2021, and INFORMS Egon Balas Prize in 2021. He has eight papers co-authored with his students and collaborators that have received the best-paper-kind awards. Since 2018, he have been among the top 1% cited researchers by Clarivate Analytics. 
+
+                    </p>
+                </div>
+            </div>
+            
+
+            <!-- Geoff Webb-->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://i.giwebb.com/" target="_blank">
+                            <img src="img/Geoff_Webb.jpg" style="height: 380px; width:280px;" class="img-responsive img-circle" alt="Geoff Webb">
+                        </a>
+                        <h4><a href="https://i.giwebb.com/" target="_blank">Geoff Webb
+                        </a></h4>
+                        <p class="text-muted">Department of Data Science & Artificial Intelligence, Monash Data Futures Institute, <BR/> Professor, Monash University, Australia</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Convolutional kernels for effective and scalable time series analytics </h3>
+                    <p> Time series classification is a fundamental data science task, providing understanding of dynamic processes as they evolve over time. Convolutional kernels provide an effective methods for extracting a wide range of different forms of information from time series data. I present the Rocket family of time series classification technologies that utilize convolutional kernels to achieve state-of-the-art accuracy with many orders of magnitude greater efficiency and scalability than any alternative.  These make time series classification feasible at hitherto unattainable scale.  The methods also have potential application across many other forms of time series analysis, including extrinsic regression, clustering, anomaly detection, segmentation and forecasting.
+                    </p>
+                    <p><b>Biography: </b><br> Professor Geoff Webb is an eminent and highly-cited data scientist. He was editor in chief of the Data Mining and Knowledge Discovery journal, from 2005 to 2014. He has been Program Committee Chair of both ACM SIGKDD and IEEE ICDM, as well as General Chair of ICDM and member of the ACM SIGKDD Executive. He is a Technical Advisor to machine learning as a service startup BigML Inc and to recommender systems startup FROOMLE. He developed many of the key mechanisms of support-confidence association discovery in the 1980s. His OPUS search algorithm remains the state-of-the-art in rule search. He pioneered multiple research areas as diverse as black-box user modelling, interactive data analytics and statistically-sound pattern discovery. He has developed many useful machine learning algorithms that are widely deployed. His many awards include IEEE Fellow, the inaugural Eureka Prize for Excellence in Data Science (2017) and the Pacific-Asia Conference on Knowledge Discovery and Data Mining Distinguished Research Contributions Award (2022).
+
+                    </p>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+    <!-- Accepted Papers Section -->
+    <section id="papers" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Papers</h2>
+                    <div class="row">
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+                    
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Deep Sequence Modeling for Event Log-based Predictive Maintenance</a>. Yun Zhou, Yawei Wang, Huan Song, Tesfagabir Meharizghi, Mohamad Al Jazaery, Denisse Colin-Magana, Aruna Abeyakoon and Panpan Xu. </p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Dynamic Ensemble for Probabilistic Time-series forecasting via Deep Reinforcement Learning</a>. Yuhao Ding, Youngsuk Park, Karthick Gopalswamy, Hilaf Hasson, Yuyang Wang and Jun Huan.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">VQ-TR: Vector Quantized Attention for Time Series Forecasting</a>. Kashif Rasul, Umang Gupta, Hena Ghonia, Anderson Schneider and Yuriy Nevmyvaka.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Long-Range Transformers for Dynamic Spatiotemporal Forecasting</a>. Jake Grigsby, Zhe Wang, Nam H Nguyen and Yanjun Qi. </p>
+
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">STNN-SDE: Continuous Stochastic Spatial-Temporal Representation Learning via Latent Stochastic Differential Equations</a>. Yanbo Xu, Piyush Patil, Lingkai Kong and Chao Zhang.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Time Series Forecasting with Distortion-Aware Convolutional Neural Networks</a>. Krisztian Buza.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Classification of Sparse and Irregularly Sampled Time Series with Convolutional Neural Networks</a>. Krisztian Buza. </p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Distribution-Free Multi-Horizon Forecasting and Vending System</a>. Vincent Quenneville-Belair, Malcolm Wolff, Brady Willhelme, Dhruv Madeka and Dean Foster.</p>
+
+                         <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Client: Cross-variable Linear Integrated Enhanced Transformer for Multivariate Long-Term Time Series Forecasting</a>.   Jiaxin Gao, Wenbo Hu and Yuntian Chen.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">On the Consistency and Robustness of Saliency Explanations for Time Series Classification</a>. Bin Li, Chiara Balestra and Emmanuel Müller.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">FuseTPT: Fused Transformer Model for Accurate Multivariate Time Series Target Prediction</a>. Imry Kissos, Moshe Unger, Even Glemmestad and Guy Arie.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">VQ-AR: Vector Quantized Autoregressive Probabilistic Time Series Forecasting</a>. Kashif Rasul, Young-Jin Park, Max Nihlén Ramström and Kyung-Min Kim.</p>
+
+
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">SageFormer: Series-Aware Graph-Enhanced Transformers for Multivariate Time Series Forecasting</a>. Zhenwei Zhang, Xin Wang and Yuantao Gu.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Bridge the Performance Gap in Peak-hour Series Forecasting: The Seq2Peak Framework </a>. Zhenwei Zhang, Xin Wang, Jingyuan Xie, Heling Zhang and Yuantao Gu.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Novel Physics-Based Machine-Learning Models for Indoor Air Quality Approximations </a>. Ahmad Mohammadshirazi, Aida Nadafian, Amin Karimi Monsefi, Mohammad Rafiei and Rajiv Ramnath</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Score Matching-based Pseudolikelihood Estimation of Neural Marked Temporal Point Process</a>.  Zichong Li, Qunzhi Xu, Zhenghao Xu, Yajun Mei, Tuo Zhao and Hongyuan Zha.</p>
+
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Learning Behavioral Representations of Routines From Large-scale Unlabeled Wearable Time-series Data Streams using Hawkes Point Process</a>. Tiantian Feng, Brandon M. Booth and Shrikanth Narayanan.</p>
+
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> PyPOTS: A Python Toolbox for Data Mining on Partially-Observed Time Series</a>. Wenjie Du.</p>
+
+                   
+
+
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div> 
+
+                </div>
+            </div>
+
+           
+        </div>
+
+    </section>
+
+  <!--  <section id="posters" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Accepted Posters</h2>
+                    TBA
+
+                </div>
+            </div>
+</div>
+
+    </section> -->
+
+    <!-- Call for Papers Section -->
+    <section id="call">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Call for Papers</h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-12">
+                    <p class="large text-muted">
+                        Submissions should follow the <a href="https://kdd.org/kdd2023/call-for-research-track-papers/">SIGKDD
+                    formatting requirements</a> (unless otherwise stated) and will be evaluated using the <a href="https://kdd.org/kdd2023/call-for-research-track-papers/">SIGKDD
+                    Research Track evaluation criteria</a>. Preference will be given to papers that are reproducible, and authors are encouraged to share their data and code publicly whenever possible. Submissions are limited to be no more than 9 pages (suggested 4-8 pages), including references (all in a single pdf). All submissions must be in pdf format using the KDD main conference paper template (see: <a href ="https://kdd.org/kdd2023/call-for-research-track-papers/"> https://kdd.org/kdd2023/call-for-research-track-papers/ </a>). Submissions will be managed via the MiLeTS 2023 EasyChair website: <a href="https://easychair.org/conferences/?conf=milets2023" target="_blank">https://easychair.org/conferences/?conf=milets2023</a>.
+                    </p>
+
+                    <p class="large text-muted">
+                        <b>Note on <i>open problem</i> submissions:</b> In order to promote new and innovative research on time series, we plan to accept a small number of high quality manuscripts describing <i>open
+                    problems</i> in time series analysis and mining. Such papers should provide a clear, detailed description and analysis of a new or open problem that poses a significant challenge to existing techniques, as well as a thorough empirical
+                        investigation demonstrating that current methods are insufficient.
+                    </p>
+                    
+                    <p class="large text-muted">
+                        The review process is single-round and double-blind (submission files have to be anonymized). Concurrent submissions to other journals and conferences are acceptable. Accepted papers will be presented as posters during the workshop and list on the website
+                        (non-archival/without proceedings). Besides, a small number of accepted papers will be selected to be presented as contributed talks.
+                    </p>
+
+                    <p class="large text-muted">
+                        Any questions may be directed to the workshop e-mail address: <a href="mailto:kdd.milets@gmail.com">kdd.milets@gmail.com</a>.
+
+                    </p>
+
+                    <p class="large text-muted">
+                        Download Call for Papers <a href="template/CFP_MILETS_KDD2023.pdf">here</a>.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dates Section -->
+    <section id="dates" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Key Dates</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-left">
+                    &nbsp;
+                </div>
+                <div class="col-lg-8 text-left">
+                    <div class="col-md-12">
+                        <!--<p class="large text-muted">-->
+                        <!--<b>Paper Submission Deadline:</b> <strike class="text-muted">TBD</strike>-->
+                        <!--</p>-->
+                        <p class="large text-muted">
+                            <b>Paper Submission Deadline:</b>
+                            <!--<span style="text-decoration: line-through;" class="text-muted">May 26th</span> -->
+                            May 26th, 2023, 11:59PM Alofi Time
+                        </p>
+                        <p class="large text-muted">
+                            <b>Author Notification:</b> 
+                            <span style="text-decoration: line-through;" class="text-muted">June 13th</span> 
+                            June 20th, 2023
+                        </p>
+                        <p class="large text-muted">
+                            <b>Camera Ready Version:</b> 
+                            July 10th, 2023
+                        </p>
+                        <p class="large text-muted">
+                            <b>Workshop:</b> August 7th, 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section id="organization">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                    <h2 class="section-heading">Workshop Organizers </h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/sanjay.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://sanjayp.is.umbc.edu/">Sanjay Purushotham</a></h4>
+                        <p class="text-muted">University of Maryland, Baltimore County</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/luke.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://www.linkedin.com/in/jun-luke-huan-58963121">Jun (Luke) Huan</a></h4>
+                        <p class="text-muted">AWS AI Labs</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/cong.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="http://www.ece.virginia.edu/~cs7dt/">Cong Shen</a></h4>
+                        <p class="text-muted">University of Virginia</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/dongjin.png" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://songdj.github.io/">Dongjin Song</a></h4>
+                        <p class="text-muted">University of Connecticut</p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                
+                
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/yuriy.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://www.linkedin.com/in/yuriynevmyvaka">Yuriy Nevmyvaka</a></h4>
+                        <p class="text-muted">Morgan Stanley</p>
+                    </div>
+                </div>
+                 <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/qingsong.jpg" class="img-responsive img-circle" alt="">
+                        <h4><a href="https://sites.google.com/site/qingsongwen8/">Qingsong Wen</a></h4>
+                        <p class="text-muted"> DAMO Academy, Alibaba Group (U.S.)</p>
+                    </div>
+                </div>
+                 <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+            </div>
+
+            
+            </div>
+
+    <div class="row">
+                <div class="col-lg-12 text-center" style="padding-bottom: 20px;">
+                    <h2 class="section-heading">Steering Committee </h2>
+                    <!--h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3-->
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/eamonn.jpg" class="img-responsive img-circle" alt="" style="height: 180px; width:180px;">
+                        <h4><a href="http://www.cs.ucr.edu/~eamonn/">Eamonn Keogh</a></h4>
+                        <p class="text-muted">University of California Riverside</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/yanliu.jpg" class="img-responsive img-circle" alt=""style="height: 180px; width:180px;">
+                        <h4><a href="http://www-bcf.usc.edu/~liu32/">Yan Liu</a></h4>
+                        <p class="text-muted">University of Southern California</p>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-2">
+                    &nbsp;
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="team-member">
+                        <img src="img/mueen.jpg" class="img-responsive img-circle" alt="" style="height: 180px; width:180px;">
+                        <h4><a href="http://www.cs.unm.edu/~mueen/">Abdullah Mueen </a></h4>
+                        <p class="text-muted">University of New Mexico</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-1">
+                    &nbsp;
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section id="program_committee">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Program Committee</h2>
+                    <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <ul class="large">
+<h4>Zhengping Che</h4>
+<h4>Feiyang Cai</h4>
+<h4>Jing Dai</h4>
+<h4>Jiechao Gao</h4>
+<h4>Shima Imani</h4>
+<h4>Yushan Jiang</h4>
+<h4>Ming Jin</h4>
+<h4>Xiang Li</h4>
+<h4>Yuxuan Liang</h4>
+<h4>Dongsheng Luo</h4>
+<h4>Yingtao Luo</h4>
+<h4>Minghua Ma</h4>
+<h4>Lili Meng</h4>
+<h4>Zijie Pan</h4>
+<h4>John Paparrizos</h4>
+<h4>Xingjian Shi</h4>
+<h4>An Wang</h4>
+<h4>Dingsu Wang</h4>
+<h4>Pengyang Wang</h4>
+<h4>Haomin Wen</h4>
+<h4>Renjie Wu</h4>
+<h4>Chen Xu</h4>
+<h4>Dongkuan Xu</h4>
+<h4>Yiyuan Yang</h4>
+<h4>Yi-Fan Zhang</h4>
+<h4> Md Rahman</h4>
+</ul>
+                </div>
+                <div class="col"></div>
+            </div>
+
+  
+        </div>
+    </section>
+
+
+
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="bg-mid-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Workshop Sponsors</h2>
+                    <h4> We are grateful to Morgan Stanley for sponsoring our workshop and supporting the best paper and poster awards. </h4>
+                </div>
+            </div>
+            <div class="wp-block-columns is-layout-flex wp-container-7">
+<div class="wp-block-column is-layout-flow">
+<figure class="wp-block-image aligncenter size-medium"><center><img decoding="async" loading="lazy" src="img/morgan_stanley.png"/> </center>    </figure>
+</div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
+
+</html>
