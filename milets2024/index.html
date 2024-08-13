@@ -193,17 +193,100 @@
 
  
            
-    <!-- Keynote Section -->
+     <!-- Keynote Section -->
 
     <section id="keynote">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Speakers</h2>
-                    <h3> TBA </h3>
+                    
                 </div>
                 
             </div>
+
+        <!-- Bernie Wang -->
+             <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="" target="_blank">
+                            <img src="img/bernie.jpeg" style="height: 360px; width:300px;" class="img-responsive img-circle" alt="Bernie Wang">
+                        </a>
+                        <h4><a href="" target="_blank">Bernie Wang</a></h4>
+                        <p class="text-muted">Principal Machine Learning Scientist<br/>
+                    AWS AI Labs <br/>Amazon</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Modern Aspects of Time Series Forecasting </h3>
+                    <p> Time series forecasting plays a pivotal role in automating and optimizing business processes. In recent years, we have witnessed a significant paradigm shift from traditional model- and assumption-based methods to data-driven, fully automated approaches. This transformation is largely driven by the increasing availability of large, diverse, and complex time series data sources, which in turn present a new set of challenges. In this keynote, we will embark on a comprehensive exploration of probabilistic time series forecasting, beginning with deep models that seamlessly blend the expressive power of neural networks with the data efficiency of classical time series methods. We will then delve into AutoML for time series and discuss the emerging trend of foundation models in this field. Finally, we will explore the practical aspects of building forecasting systems using the AWS Forecasting stack, including tools such as AutoGluon, GluonTS, SageMaker (Canvas), and Amazon Forecast.
+
+                    </p>
+                    <p><b>Biography</b><br> Bernie Wang is a Principal Machine Learning Scientist at AWS AI Labs, where he leads a research group specializing in AutoML and large-scale time series forecasting, with applications spanning AIOps, supply chain optimization, workforce planning, and more. He holds a PhD in Computer Science from Tufts University, USA, and an MS in Computer Science from Tsinghua University, China. Bernie’s research interests encompass statistical machine learning, numerical linear algebra, and random matrix theory. His work in time series forecasting covers a broad spectrum, from practical applications to the development of theoretical foundations.
+
+
+                    </p>
+                </div>
+            </div>
+        
+
+
+            <!-- B. Aditya Prakash-->
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="http://cc.gatech.edu/~badityap/" target="_blank">
+                            <img src="img/badityap-portrait-new.jpg" style="height: 360px; width:300px;" class="img-responsive img-circle" alt="B. Aditya Prakash">
+                        </a>
+                        <h4><a href="http://cc.gatech.edu/~badityap/" target="_blank">B. Aditya Prakash
+                        </a></h4>
+                        <p class="text-muted"> Associate Professor<BR/>
+                        College of Computing,<BR/> Georgia Institute of Technology</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>New Methods for Robust Time-series Analysis </h3>
+                    <p> Sequence modeling at scale is an important problem for many domains like traffic prediction, behavior modeling, network analytics, observability and disease forecasting. Improvements in ML models for sequence prediction have led to improvements in tasks across multiple disciplines. However, most time series prediction models only focus on producing accurate so-called ‘point’ predictions and do not prioritize handling uncertainty and calibrating the (complex, possibly multimodal) predictive distribution itself. This is problematic as providing a trustworthy and reliable estimate is important for real world applications and more generally dealing with uncertain cases during inference. This problem is exacerbated in spatio-temporal forecasting. In this talk, we discuss some of our recent work in advancing the field of multi-variate forecasting with uncertainty and calibration by bridging deep sequential models with Gaussian processes and also using neural models to handle data revisions in real-time. We will also talk about our recent work on enhancing generalizability for time-series analysis by using LLMs and developing principled multi-domain pre-trained models and adapting to industrial use cases. 
+
+
+                    </p>
+                    <p><b>Biography: </b><br> B. Aditya Prakash is an Associate Professor in the College of Computing at the Georgia Institute of Technology (“Georgia Tech”). He received a Ph.D. from the Computer Science Department at Carnegie Mellon University, and a B.Tech (in CS) from the Indian Institute of Technology (IIT) – Bombay. He has published one book, more than 100 papers in major venues, holds two U.S. patents and has given several tutorials at leading conferences. His work has also received multiple best-paper/best-of-conference selections and travel awards. His research interests include Data Science, Machine Learning and AI, with emphasis on big-data problems in large real-world networks and time-series, with applications to health, urban computing, security and the Web. Tools developed by his group have been in use in many places including ORNL, the CDC, Dow Inc and Walmart. He has received several awards such as multiple Facebook Faculty Awards, the NSF CAREER award, and was named as one of ‘AI Ten to Watch’ by the IEEE. His work has also won awards in multiple data science challenges (e.g the Catalyst COVID19 Symptom Challenge) and been highlighted by several media outlets/popular press like FiveThirtyEight.com. He is also a core-faculty at the Center for Machine Learning (ML@GT) and the Institute for Data Engineering and Science (IDEaS) at Georgia Tech.   
+
+                    </p>
+                </div>
+            </div>
+            
+
+            <!-- Geoff Webb-->
+            <!--
+            <div class="row speakers">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a href="https://i.giwebb.com/" target="_blank">
+                            <img src="img/Geoff_Webb.jpg" style="height: 380px; width:280px;" class="img-responsive img-circle" alt="Geoff Webb">
+                        </a>
+                        <h4><a href="https://i.giwebb.com/" target="_blank">Geoff Webb
+                        </a></h4>
+                        <p class="text-muted">Department of Data Science & Artificial Intelligence, Monash Data Futures Institute, <BR/> Professor, Monash University, Australia</p>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-8 text-justify">
+                    <h3>Convolutional kernels for effective and scalable time series analytics </h3>
+                    <p> Time series classification is a fundamental data science task, providing understanding of dynamic processes as they evolve over time. Convolutional kernels provide an effective methods for extracting a wide range of different forms of information from time series data. I present the Rocket family of time series classification technologies that utilize convolutional kernels to achieve state-of-the-art accuracy with many orders of magnitude greater efficiency and scalability than any alternative.  These make time series classification feasible at hitherto unattainable scale.  The methods also have potential application across many other forms of time series analysis, including extrinsic regression, clustering, anomaly detection, segmentation and forecasting.
+                    </p>
+                    <p><b>Biography: </b><br> Professor Geoff Webb is an eminent and highly-cited data scientist. He was editor in chief of the Data Mining and Knowledge Discovery journal, from 2005 to 2014. He has been Program Committee Chair of both ACM SIGKDD and IEEE ICDM, as well as General Chair of ICDM and member of the ACM SIGKDD Executive. He is a Technical Advisor to machine learning as a service startup BigML Inc and to recommender systems startup FROOMLE. He developed many of the key mechanisms of support-confidence association discovery in the 1980s. His OPUS search algorithm remains the state-of-the-art in rule search. He pioneered multiple research areas as diverse as black-box user modelling, interactive data analytics and statistically-sound pattern discovery. He has developed many useful machine learning algorithms that are widely deployed. His many awards include IEEE Fellow, the inaugural Eureka Prize for Excellence in Data Science (2017) and the Pacific-Asia Conference on Knowledge Discovery and Data Mining Distinguished Research Contributions Award (2022).
+
+                    </p>
+                </div>
+            </div>
+            % -->
+            
 
         </div>
 
@@ -217,13 +300,50 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Accepted Papers</h2>
                     <div class="row">
-                <h3> TBA </h3>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+                <div class="col-lg-10 text-justify">
+                    
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Understanding Fear and Beyond in Neuronal Networks with Tensor and Graph Methods: An Interdisciplinary End-to-End Data Science Approach </a>. Jordan Steinhauser, Edward Korzus and Evangelos Papalexakis. </p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">FrENTs: Probabilistic Forecasting by Frequency Enhanced Neural Processes</a>. Sayan Sinha, Harshavardhan Kamarthi, Alexander Rodríguez, Joy Arulraj and B. Aditya Prakash.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Fine-grained Attention in Hierarchical Transformers for Tabular Time-series</a>. Raphael Azorin, Zied Ben Houidi, Massimo Gallo, Alessandro Finamore and Pietro Michiardi.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Time series forecasting with high stakes: A field study of the air cargo industry</a>. Naman Shukla and Abhinav Garg. </p>
 
-                    </div> 
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">SCoherency Loss for Hierarchical Time Series Forecasting</a>. Rares Cristian, Michael Hensgen, Pavithra Harsha, Georgia Perakis and Brian Quanz.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Towards Foundation Auto-Encoders for Time-Series Anomaly Detection</a>. Gastón García González, Pedro Casas, Emilio Martínez and Alicia Fernández.</p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank"> Multi-output Ensembles for Multi-step Ahead Forecasting</a>. Vitor Cerqueira, Carlos Soares and Luis Torgo. </p>
+                        <p class="row large text-muted">
+                       
+                        <a href=" " target="_blank">Attention-guided Neural Differential Equations Framework for Missingness in Time series Classification</a>. Yongkyung Oh, Dongyoung Lim, Sungil Kim and Alex Bui.</p>
+
+                         <p class="row large text-muted">
+                       
+                </div>
+                <div class="col-lg-1 text-justify">
+                    &nbsp;
+                </div>
+
+            </div> 
 
                 </div>
             </div>
 
+           
         </div>
 
     </section>
