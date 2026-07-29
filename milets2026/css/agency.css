@@ -926,6 +926,70 @@ img::-moz-selection {
     padding-bottom: 20px;
 }
 
+/* Workshop program */
+#program .section-heading { color: #1f3566; }
+.program-date { margin: 0 0 40px; color: #777; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 18px; font-style: italic; }
+.program-schedule { overflow: hidden; border: 1px solid #ddd; border-radius: 4px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.program-row { display: table; width: 100%; border-bottom: 1px solid #e5e5e5; }
+.program-row:last-child { border-bottom: 0; }
+.program-row time, .program-row > div { display: table-cell; padding: 20px 24px; vertical-align: top; }
+.program-row time { width: 190px; border-right: 1px solid #e5e5e5; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 700; white-space: nowrap; }
+.program-row h3 { margin: 0; color: #333; font-size: 17px; line-height: 1.45; text-transform: none; }
+.program-row.session { border-left: 4px solid #1f3566; }
+.program-row.keynote { border-left: 4px solid #fed136; background: #fffdf5; }
+.program-row.featured { border-left: 4px solid #1f3566; background: #f4f6fa; }
+.program-row.break { background: #f7f7f7; }
+.program-row.break h3 { color: #777; font-size: 15px; }
+.session-content { padding-bottom: 12px !important; }
+.session-papers { margin: 14px -24px -12px; }
+.paper-entry { display: grid; grid-template-columns: 48px minmax(0, 1fr); column-gap: 10px; padding: 10px 24px; border-top: 1px solid #e5e5e5; color: #555; font-size: 15px; line-height: 1.55; }
+.paper-entry b { grid-column: 1; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; }
+.paper-entry .paper-authors { grid-column: 2; }.program-row.paper > div { position: relative; padding: 10px 24px 10px 82px; color: #555; font-size: 15px; line-height: 1.55; }
+.program-row.paper time { padding-top: 10px; padding-bottom: 10px; }
+.program-row.paper b { position: absolute; top: 12px; left: 24px; width: 48px; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; }
+.paper-authors { display: block; margin-top: 4px; color: #888; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; line-height: 1.5; }
+.program-note { margin-top: 24px; padding: 22px 26px; border-left: 4px solid #fed136; background: #fff; }
+.program-note h3 { margin: 0 0 8px; color: #1f3566; font-size: 17px; text-transform: none; }
+.program-note p { margin: 0; color: #666; font-size: 15px; }
+@media (max-width:767px) {
+    .program-date { margin-bottom: 28px; }
+    .program-row, .program-row time, .program-row > div { display: block; width: 100%; }
+    .program-row time { padding: 15px 18px 5px; border-right: 0; }
+    .program-row > div { padding: 4px 18px 18px; }
+    .program-row.paper time { display: none; }
+    .session-content { padding-bottom: 12px !important; }
+    .session-papers { margin-right: -18px; margin-left: -18px; }
+    .paper-entry { grid-template-columns: 42px minmax(0, 1fr); padding-right: 18px; padding-left: 18px; }
+    .program-row.paper > div { padding: 10px 18px 10px 70px; }
+    .program-row.paper b { top: 12px; left: 18px; width: 42px; }
+}
+
+
+/* Accepted papers */
+.paper-link { color: #444; text-decoration: none; }
+.paper-link:hover, .paper-link:focus { color: #1f3566; text-decoration: underline; }
+#papers .section-heading { color: #1f3566; }
+.accepted-papers-intro { margin: 0 0 40px; color: #777; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: italic; }
+.accepted-papers-grid { display: flex; flex-wrap: wrap; }
+.accepted-paper-wrap { display: flex; margin-bottom: 24px; }
+.accepted-paper-card { position: relative; width: 100%; padding: 25px 24px 22px; border-left: 4px solid #fed136; border-radius: 4px; background: #f7f7f7; box-shadow: 0 2px 8px rgba(0,0,0,.06); transition: transform .2s ease, box-shadow .2s ease; }
+.accepted-paper-card:hover { transform: translateY(-3px); box-shadow: 0 5px 14px rgba(0,0,0,.1); }
+.accepted-paper-id { display: inline-block; margin-bottom: 9px; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 700; }
+.accepted-paper-card h3 { margin: 0 0 10px; font-size: 16px; line-height: 1.45; text-transform: none; }
+.accepted-paper-card h3 a { color: #1f3566; }
+.accepted-paper-card h3 a:hover, .accepted-paper-card h3 a:focus { color: #d6a900; text-decoration: none; }
+.pdf-badge { display: inline-block; margin-left: 6px; padding: 2px 5px; border-radius: 2px; background: #c0392b; color: #fff; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 9px; font-weight: 700; line-height: 1.2; vertical-align: 2px; }
+.accepted-paper-card p { margin: 0; color: #777; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; line-height: 1.55; }
+/* Program committee */
+#program_committee { background: #f7f7f7; }
+#program_committee .section-heading { margin-bottom: 40px; color: #1f3566; }
+.pc-grid { display: flex; flex-wrap: wrap; justify-content: center; }
+.pc-member-wrap { display: flex; margin-bottom: 24px; }
+.pc-member-card { width: 100%; min-height: 125px; padding: 24px 20px 20px; border-top: 4px solid #fed136; border-radius: 4px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,.07); text-align: center; transition: transform .2s ease, box-shadow .2s ease; }
+.pc-member-card:hover { transform: translateY(-3px); box-shadow: 0 5px 14px rgba(0,0,0,.11); }
+.pc-member-card h4 { margin: 0 0 10px; color: #1f3566; font-size: 17px; text-transform: none; }
+.pc-member-card p { margin: 0; color: #777; font-size: 14px; line-height: 1.5; }
+
 body {
     webkit-tap-highlight-color: #fed136
 }

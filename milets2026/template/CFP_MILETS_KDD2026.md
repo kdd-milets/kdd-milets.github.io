@@ -15,9 +15,9 @@ Website: https://kdd-milets.github.io/milets2026/
 ## Key Dates
 
 - Paper Submission Deadline: May 31, 2026, 11:59PM Alofi Time (GMT-11)
-- Author Notification: June 30, 2026
-- Camera Ready Version: July 15, 2026
-- Workshop: August 3 or 4, 2026
+- Author Notification: June 10, 2026
+- Camera Ready Version: June 17, 2026
+- Workshop: August 10, 2026
 
 MiLeTS is the premier KDD workshop on Mining and Learning from Time Series and has been organized for the past 11 years.
 
@@ -58,12 +58,6 @@ The review process is single-round and double-blind, and submission files have t
 
 Any questions may be directed to the workshop e-mail address: kdd.milets@gmail.com
 
-## Key Dates
-
-- Paper Submission Deadline: May 31, 2026, 11:59PM Alofi Time (GMT-11)
-- Author Notification: June 30, 2026
-- Camera Ready Version: July 15, 2026
-- Workshop: August 3 or 4, 2026
 
 ## Organizing Committee
 
