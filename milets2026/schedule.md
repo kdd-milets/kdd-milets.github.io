@@ -3,13 +3,13 @@
 | Time | Program |
 |---|---|
 | **8:00–8:05 AM** | **Opening Remarks** |
-| **8:05–8:50 AM** | **Keynote Talk 1** |
+| **8:05–8:50 AM** | **Keynote Talk 1:** Zhiguang (Stephen) Wang, Founder & CEO, Abel Lab — *Temporal SuperIntelligence: What Should a Time-Series Foundation Model Actually Learn?* |
 | **8:50–9:35 AM** | **Oral Session I: Time Series Representation Learning** |
 |  | *ID 32* Feature-Informed Self-Supervised Learning for Time Series Understanding |
 |  | *ID 29* Aionoscope: Debugging Latent-State Accessibility in Time-Series Representations |
 |  | *ID 13* Compositional Spectral Prompts for LLM-based Online Time Series Forecasting |
 | **9:35–10:00 AM** | **Coffee Break** |
-| **10:00–10:45 AM** | **Keynote Talk 2** |
+| **10:00–10:45 AM** | **Keynote Talk 2:** Flora Salim, Professor, UNSW Sydney — *Towards Foundation Models for Human and Physiological Behaviour Understanding* |
 | **10:45 AM–12:00 PM** | **Oral Session II: Multimodal and LLM-enhanced Time Series Modeling** |
 |  | *ID 3* When Does Context Routing Help? A Systematic Study of Multi-Modal Fusion in Time Series Forecasting |
 |  | *ID 6* Rethinking Multimodal Fusion for Time Series Forecasting: Text Modalities Need Constrained Fusion |
@@ -28,7 +28,7 @@
 |  | *ID 10* Hierarchical Reinforced Trader: Text-Aware Financial Time-Series Portfolio Control |
 |  | *ID 24* Structured LLM-Augmented Forecasting for Non-Stationary Public Health Time Series Data |
 | **2:00–2:10 PM** | **Transition Break** |
-| **2:10–3:00 PM** | **Keynote Talk 3** |
+| **2:10–3:00 PM** | **Keynote Talk 3:** Haomin Wen, Research Assistant Professor, Shanghai Innovation Institute — *Towards Live Benchmark for Time Series Foundation Models* |
 | **3:00–3:30 PM** | **Coffee Break** |
 | **3:30–5:00 PM** | **Oral Session III: Advanced Forecasting and Real-world Applications** |
 |  | *ID 1* Anomalies in Multivariate Time Series Benchmarks Are Mostly Univariate |

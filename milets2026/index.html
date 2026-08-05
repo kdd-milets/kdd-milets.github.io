@@ -15,7 +15,7 @@
     <title>The 12th Mining and Learning from Time Series (MILETS)</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/agency.css?v=6" rel="stylesheet">
+    <link href="css/agency.css?v=10" rel="stylesheet">
 
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -61,9 +61,9 @@
                     <li>
                         <a class="page-scroll" href="#program">Program</a>
                     </li>
-                    <!-- <li>
+                    <li>
                         <a class="page-scroll" href="#keynote">Speakers</a>
-                    </li> -->
+                    </li>
                     <li>
                         <a class="page-scroll" href="#papers">Accepted Papers</a>
                     </li>
@@ -158,7 +158,14 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-12">
                     <div class="program-schedule">
                         <div class="program-row featured"><time>8:00–8:05 AM</time><div><h3>Opening Remarks</h3></div></div>
-                        <div class="program-row keynote"><time>8:05–8:50 AM</time><div><h3>Keynote Talk 1</h3></div></div>
+                        <div class="program-row keynote">
+                            <time>8:05–8:50 AM</time>
+                            <div>
+                                <h3>Keynote Talk 1</h3>
+                                <p class="program-keynote-speaker">Zhiguang (Stephen) Wang · Founder &amp; CEO, Abel Lab</p>
+                                <p class="program-keynote-title"><a class="page-scroll" href="#keynote-speaker-1">Temporal SuperIntelligence: What Should a Time-Series Foundation Model Actually Learn?</a></p>
+                            </div>
+                        </div>
                         <div class="program-row session">
                             <time>8:50–9:35 AM</time>
                             <div class="session-content">
@@ -171,7 +178,14 @@
                             </div>
                         </div>
                         <div class="program-row break"><time>9:35–10:00 AM</time><div><h3>Coffee Break</h3></div></div>
-                        <div class="program-row keynote"><time>10:00–10:45 AM</time><div><h3>Keynote Talk 2</h3></div></div>
+                        <div class="program-row keynote">
+                            <time>10:00–10:45 AM</time>
+                            <div>
+                                <h3>Keynote Talk 2</h3>
+                                <p class="program-keynote-speaker">Flora Salim · Professor, UNSW Sydney</p>
+                                <p class="program-keynote-title"><a class="page-scroll" href="#keynote-speaker-2">Towards Foundation Models for Human and Physiological Behaviour Understanding</a></p>
+                            </div>
+                        </div>
                         <div class="program-row session">
                             <time>10:45 AM–12:00 PM</time>
                             <div class="session-content">
@@ -204,7 +218,14 @@
                             </div>
                         </div>
                         <div class="program-row break"><time>2:00–2:10 PM</time><div><h3>Transition Break</h3></div></div>
-                        <div class="program-row keynote"><time>2:10–3:00 PM</time><div><h3>Keynote Talk 3</h3></div></div>
+                        <div class="program-row keynote">
+                            <time>2:10–3:00 PM</time>
+                            <div>
+                                <h3>Keynote Talk 3</h3>
+                                <p class="program-keynote-speaker">Haomin Wen · Research Assistant Professor, Shanghai Innovation Institute</p>
+                                <p class="program-keynote-title"><a class="page-scroll" href="#keynote-speaker-3">Towards Live Benchmark for Time Series Foundation Models</a></p>
+                            </div>
+                        </div>
                         <div class="program-row break"><time>3:00–3:30 PM</time><div><h3>Coffee Break</h3></div></div>
                         <div class="program-row session">
                             <time>3:30–5:00 PM</time>
@@ -231,6 +252,102 @@
         </div>
     </section>
 
+    <section id="keynote">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Keynote Speakers</h2>
+                    <p class="keynote-section-intro">Invited talks from leading researchers and practitioners in time-series intelligence.</p>
+                </div>
+            </div>
+
+            <article id="keynote-speaker-1" class="keynote-featured-card">
+                <div class="keynote-speaker-header">
+                    <img class="keynote-photo" src="img/zhiguang_wang.png" alt="Portrait of Zhiguang (Stephen) Wang">
+                    <div>
+                        <span class="keynote-label">Keynote Speaker 1</span>
+                        <h3>Zhiguang (Stephen) Wang</h3>
+                        <p class="keynote-affiliation">Founder &amp; CEO, Abel Lab</p>
+                    </div>
+                </div>
+
+                <div class="row keynote-content">
+                    <div class="col-md-5 keynote-bio">
+                        <h4>Biography</h4>
+                        <p>Zhiguang Wang is the founder of Abel Lab, a research organization built around temporal superintelligence: machine intelligence capable of reading, predicting, and intervening in any system that evolves over time. Its first embodiment is the Temporal World Model, which forecasts through a learned dynamical operator whose spectrum is constrained by a discovered causal graph.</p>
+                        <p>His research includes several foundational contributions to modern time-series foundation models. The field’s standard review (Ismail Fawaz et al., DMKD, 2019) identified his temporal FCN and ResNet architectures as reference models against which new methods should be evaluated; nine years later, they remain standard baselines. As early as 2015, he encoded time series as images so that vision models could read them through Gramian Angular Fields and Markov Transition Fields (GAF/MTF, IJCAI 2015). Vision-foundation forecasters returned to this construction in 2024.</p>
+                        <p>As a Principal Researcher at frontier AI labs including Meta and Snap, he led the research and deployment of Facebook Assistant’s dialogue reasoning and state-tracking systems. Meta developed his task-persistence architecture for long-horizon, complex tasks into a four-patent continuation family. These patents have been widely cited in LLM-agent filings by Apple, Google, Amazon, and Microsoft. At Snap, his work spanned multimodal understanding, foundation models, and large-scale systems. His GE Research patent on industrial augmented reality has been cited across filings by Rockwell Automation, Siemens, and Boeing.</p>
+                        <p>He has served as Area Chair for NeurIPS, CVPR, ACL, IJCAI, NAACL, EMNLP, and COLING. He received his Ph.D. in Computer Science from the University of Maryland at Baltimore under Dr. Tim Oates and Dr. Yun Peng, and entered the School of Mathematical Sciences at Fudan University through China’s national mathematics-olympiad track.</p>
+                    </div>
+                    <div class="col-md-7 keynote-talk">
+                        <span class="keynote-talk-label">Keynote Talk</span>
+                        <h4>Temporal SuperIntelligence: What Should a Time-Series Foundation Model Actually Learn?</h4>
+                        <h5>Abstract</h5>
+                        <p>Time-series foundation models are now pretrained once and applied to unseen series without fitting. Their objective, however, was inherited rather than derived: they extend a series from its own past, which assumes the system that produced it is closed. Few systems of consequence are. Language models learn a distribution; visual world models learn a manifold; for dynamics no corresponding answer has been agreed, and the usual remedy is unavailable in principle. History cannot be lengthened. There is one record of the S&amp;P 500 and one of any given power grid, and no amount of compute produces a second. Time series therefore sits permanently in the regime where structure, not corpus size, is the dominant term; the argument that produced the bitter lesson in language runs backwards here.</p>
+                        <p>In this talk I will review the three lineages now converging on the problem—forecasting foundation models, temporal causal discovery, and the spectral state-space line—including our own work on a temporal world model that treats forecasting as amortized system identification. Mathematically, the model learns the spectrum of a controlled evolution operator, and a discovered causal graph constrains which poles and cross-channel couplings that operator may use; the two are one object rather than two pipelines, so the same learned operator answers both what happens next and what would happen under intervention.</p>
+                        <p>Empirically, we report gene-regulatory and market results obtained under a single set of weights. I will close on evaluation: no standard benchmark contains interventions, so a genuinely better world model and a marginally better forecaster remain indistinguishable. The fix is a protocol, not a model.</p>
+                    </div>
+                </div>
+            </article>
+
+
+            <article id="keynote-speaker-2" class="keynote-featured-card keynote-secondary-card">
+                <div class="keynote-speaker-header">
+                    <img class="keynote-photo" src="img/flora_salim.png" alt="Portrait of Flora Salim">
+                    <div>
+                        <span class="keynote-label">Keynote Speaker 2</span>
+                        <h3>Flora Salim</h3>
+                        <p class="keynote-affiliation">Professor, School of Computer Science and Engineering, UNSW Sydney</p>
+                    </div>
+                </div>
+
+                <div class="row keynote-content">
+                    <div class="col-md-5 keynote-bio">
+                        <h4>Biography</h4>
+                        <p>Flora Salim is a Professor in the School of Computer Science and Engineering at the University of New South Wales (UNSW) Sydney, where she also serves as the Deputy Director (Engagement) of the UNSW AI Institute. Her work focuses on multimodal machine learning and foundation models for time-series and spatio-temporal data; robust and trustworthy machine learning; and continual learning and post-tuning.</p>
+                        <p>She is a member of the Australian Academy of Sciences’ National Committee for Information and Computing Sciences and a member of the Australian Research Council (ARC) College of Experts. She is a Vice Chair of the IEEE Task Force on AI for Time-Series and Spatio-Temporal Data.</p>
+                        <p>She serves on the editorial boards of ACM TIST, ACM TSAS, PACM IMWUT, Machine Learning, and Nature Scientific Data, and has served as Area Chair for NeurIPS, ICLR, ACL, KDD, and WWW.</p>
+                    </div>
+                    <div class="col-md-7 keynote-talk">
+                        <span class="keynote-talk-label">Keynote Talk</span>
+                        <h4>Towards Foundation Models for Human and Physiological Behaviour Understanding</h4>
+                        <h5>Abstract</h5>
+                        <p>Wearable and physiological sensors give us continuous streams of numbers, but what we need is an account of their behaviour and what it means for their health. I will describe our five works in that direction, and where they lead next.</p>
+                        <p>The first (SensorLLM) teaches a frozen large language model to read motion sensor signals directly, by automatically describing their trends in text and mapping a lightweight sensor encoder into the model’s representation space, which gives competitive activity recognition while training a very small fraction of the parameters. The second (ZARA) takes training out of the loop altogether. Statistical evidence distilled from labelled signals is stored as a searchable knowledge base, and a hierarchy of agents reasons over the retrieved evidence to make predictions and explain them in plain language.</p>
+                        <p>The third (TraceTS) asks whether such explanations can be trusted, using attribution from an expert classifier to mark the sensor regions that actually support a decision, building structured traces in which every claim points back to a piece of signal, and distilling the process into a compact model that returns both the label and its trace in one pass, together with a metric that checks whether a trace holds up. The fourth (COMODO) approaches the shortage of labelled data from the other side, transferring semantic structure from egocentric video into a small inertial encoder without any labels, so that a low-power, privacy-preserving sensor inherits what a video model already knows.</p>
+                        <p>The fifth (AnyMo) confronts a weakness all of these share, namely that performance depends heavily on where and how a device is worn; physics-based simulation of signals across many body positions supports a geometry-aware representation that transfers to unseen placements, devices, and activity vocabularies. I will close with recent work that applies the same self-supervised approach from movement into physiology, learning representations of unlabelled continuous glucose traces that hold up across cohorts and measurement settings and support metabolic risk screening with few labels.</p>
+                    </div>
+                </div>
+            </article>
+            <article id="keynote-speaker-3" class="keynote-featured-card keynote-secondary-card">
+                <div class="keynote-speaker-header">
+                    <img class="keynote-photo" src="img/haomin_wen.png" alt="Portrait of Haomin Wen">
+                    <div>
+                        <span class="keynote-label">Keynote Speaker 3</span>
+                        <h3>Haomin Wen</h3>
+                        <p class="keynote-affiliation">Research Assistant Professor, Shanghai Innovation Institute</p>
+                    </div>
+                </div>
+
+                <div class="row keynote-content">
+                    <div class="col-md-5 keynote-bio">
+                        <h4>Biography</h4>
+                        <p>Haomin Wen is a Research Assistant Professor at Shanghai Innovation Institute. Before that, he was a postdoctoral researcher at Carnegie Mellon University. His research interests include spatio-temporal data mining, traffic prediction, and other machine learning applications.</p>
+                        <p>He has published more than 20 papers in top-tier venues, including SIGKDD, ICDE, TKDE, and AAAI. He received conference travel grants for AAAI 2023, KDD 2024, and SIGSPATIAL 2023.</p>
+                        <p>He has also received the National Scholarship of China (Top 1%) and First Prize in the Postal Industry Scientific and Technological Award of China.</p>
+                    </div>
+                    <div class="col-md-7 keynote-talk">
+                        <span class="keynote-talk-label">Keynote Talk</span>
+                        <h4>Towards Live Benchmark for Time Series Foundation Models</h4>
+                        <h5>Abstract</h5>
+                        <p>Time Series Foundation Models (TSFMs) have recently emerged as a highly promising paradigm for cross-domain zero-shot forecasting. However, existing evaluation protocols predominantly rely on static benchmarks with fixed historical test windows. While these benchmarks provide a valuable baseline snapshot, they evaluate an average performance on a fixed history, failing to capture how models behave in continuously evolving real-world environments characterized by seasonal variations, distribution shifts, and unexpected events.</p>
+                        <p>To bridge this gap, we introduce LiveHouse-TS, the first open-world living benchmark infrastructure for TSFMs. By evaluating models prequentially on real future data in open-world environments, LiveHouse-TS shifts time series benchmarking from snapshot accuracy to continuous temporal validity.</p>
+                        <p>Rather than acting as a one-off leaderboard, our infrastructure serves as a continuous time series infrastructure designed to explore vital, long-term scientific questions: Can model rankings be maintained over the long term? Which models remain genuinely robust under distribution shifts? Extensive streaming evaluations across 11 domains with 17 datasets demonstrate that static rankings undergo a dramatic reshuffling under a live protocol.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
     <section id="papers">
         <div class="container">
             <div class="row">

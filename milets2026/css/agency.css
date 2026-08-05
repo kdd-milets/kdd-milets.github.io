@@ -944,7 +944,8 @@ img::-moz-selection {
 .session-papers { margin: 14px -24px -12px; }
 .paper-entry { display: grid; grid-template-columns: 48px minmax(0, 1fr); column-gap: 10px; padding: 10px 24px; border-top: 1px solid #e5e5e5; color: #555; font-size: 15px; line-height: 1.55; }
 .paper-entry b { grid-column: 1; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; }
-.paper-entry .paper-authors { grid-column: 2; }.program-row.paper > div { position: relative; padding: 10px 24px 10px 82px; color: #555; font-size: 15px; line-height: 1.55; }
+.paper-entry .paper-authors { grid-column: 2; }
+.program-row.paper > div { position: relative; padding: 10px 24px 10px 82px; color: #555; font-size: 15px; line-height: 1.55; }
 .program-row.paper time { padding-top: 10px; padding-bottom: 10px; }
 .program-row.paper b { position: absolute; top: 12px; left: 24px; width: 48px; color: #1f3566; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 12px; }
 .paper-authors { display: block; margin-top: 4px; color: #888; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: italic; line-height: 1.5; }
@@ -965,6 +966,40 @@ img::-moz-selection {
 }
 
 
+
+/* Keynote speakers */
+.program-keynote-speaker { margin: 6px 0 2px; color: #666; font-size: 14px; }
+.program-keynote-title { margin: 0; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: italic; line-height: 1.5; }
+.program-keynote-title a { color: #1f3566; }
+#keynote { background: #fff; }
+#keynote .section-heading { color: #1f3566; }
+.keynote-section-intro { margin: 0 0 42px; color: #777; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: italic; }
+.keynote-featured-card { overflow: hidden; border: 1px solid #e2e2e2; border-radius: 5px; background: #fff; box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+.keynote-speaker-header { display: flex; align-items: center; padding: 30px 34px; border-bottom: 1px solid rgba(255,255,255,.16); background: #1f3566; color: #fff; }
+.keynote-photo { flex: 0 0 96px; width: 96px; height: 96px; margin-right: 26px; border: 3px solid #fed136; border-radius: 50%; background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.25); object-fit: cover; object-position: center 28%; }
+.keynote-label, .keynote-talk-label { display: block; margin-bottom: 6px; color: #fed136; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; }
+.keynote-speaker-header h3 { margin: 0 0 6px; font-size: 27px; text-transform: none; }
+.keynote-affiliation { margin: 0; color: rgba(255,255,255,.82); font-size: 16px; }
+.keynote-content { margin: 0; }
+.keynote-bio, .keynote-talk { padding: 32px 34px 28px; }
+.keynote-bio { background: #f7f7f7; }
+.keynote-content h4 { margin: 0 0 18px; color: #1f3566; font-size: 19px; line-height: 1.45; text-transform: none; }
+.keynote-content h5 { margin: 24px 0 12px; color: #1f3566; font-size: 14px; }
+.keynote-content p { color: #666; font-size: 14px; line-height: 1.75; text-align: justify; }
+.keynote-talk-label { color: #b38d00; }
+.keynote-secondary-card { margin-top: 32px; }
+.keynote-placeholders { margin-top: 28px; }
+.keynote-placeholder-card { position: relative; min-height: 155px; padding: 34px 30px; border: 1px dashed #c8c8c8; border-radius: 5px; background: #f7f7f7; text-align: center; }
+.keynote-number { display: block; margin-bottom: 12px; color: #d6a900; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 700; }
+.keynote-placeholder-card h3 { margin: 0 0 8px; color: #1f3566; font-size: 17px; text-transform: none; }
+.keynote-placeholder-card p { margin: 0; color: #888; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-style: italic; }
+@media (max-width:767px) {
+    .keynote-speaker-header { align-items: flex-start; padding: 24px 20px; }
+    .keynote-photo { flex-basis: 72px; width: 72px; height: 72px; margin-right: 16px; }
+    .keynote-speaker-header h3 { font-size: 21px; }
+    .keynote-bio, .keynote-talk { padding: 26px 22px 22px; }
+    .keynote-placeholder-card { margin-bottom: 20px; }
+}
 /* Accepted papers */
 .paper-link { color: #444; text-decoration: none; }
 .paper-link:hover, .paper-link:focus { color: #1f3566; text-decoration: underline; }
