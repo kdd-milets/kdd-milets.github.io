@@ -9,7 +9,7 @@
 |  | *ID 29* Aionoscope: Debugging Latent-State Accessibility in Time-Series Representations |
 |  | *ID 13* Compositional Spectral Prompts for LLM-based Online Time Series Forecasting |
 | **9:35–10:00 AM** | **Coffee Break** |
-| **10:00–10:45 AM** | **Keynote Talk 2:** Flora Salim, Professor, UNSW Sydney — *Towards Foundation Models for Human and Physiological Behaviour Understanding* |
+| **10:00–10:45 AM** | **Keynote Talk 2:** Flora Salim, Professor, UNSW Sydney — *Semantics, Motion, and Topology: Towards Zero-Shot Reasoners for Open World Multivariate and Multimodal Time-Series* |
 | **10:45 AM–12:00 PM** | **Oral Session II: Multimodal and LLM-enhanced Time Series Modeling** |
 |  | *ID 3* When Does Context Routing Help? A Systematic Study of Multi-Modal Fusion in Time Series Forecasting |
 |  | *ID 6* Rethinking Multimodal Fusion for Time Series Forecasting: Text Modalities Need Constrained Fusion |
